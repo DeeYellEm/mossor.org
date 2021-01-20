@@ -1,0 +1,130 @@
+<!DOCTYPE HTML PUBLIC "-//SoftQuad Software//DTD HoTMetaL PRO 6.0::19990601::extensions to HTML 4.0//EN" "hmpro6.dtd">
+<HTML> 
+  <HEAD> 
+	 <TITLE>Desktop Studios</TITLE> 
+  </HEAD> 
+  <BODY BACKGROUND="../../../../Images/bg_1.jpg" TEXT="E5CB94" LINK="#33ff66"
+	ALINK="#FF0000" VLINK="#6699FF"> 
+	 <CENTER> 
+		<TABLE> 
+		  <TR> 
+			 <TD ALIGN="CENTER"><IMG SRC="../Images/Rigging_sm.jpg" BORDER="0"
+				WIDTH="400" HEIGHT="244"></TD> 
+		  </TR> 
+		  <TR> 
+			 <TD ALIGN="CENTER"> 
+				<H1>4: Rigging</H1> <HR></TD> 
+		  </TR> 
+		  <TR> 
+			 <TD ALIGN="LEFT" WIDTH="80%"> 
+				<P>In this case, by rigging, I mean to add the necessary bones to
+				  the model to allow us to animate. In this case, because of the simplicity of
+				  the model, we will not be using any constraints on the body itself since we'll
+				  be creating only a very simple set of repeated actions.</P> 
+				<P>Okay, enough of that, let's set some bones! Bring up your
+				  HeadSeg model in it's window. Let's hit '4' to get a left view. Now, let's get
+				  in to Bones mode (if you're not there already). On the bar across the top
+				  (again, assuming a default interface), you should see a small bone. Click on
+				  it. Looks like this:
+				  <IMG SRC="../Images/BonesMode.jpg" WIDTH="224" HEIGHT="72" BORDER="0"
+					ALIGN="TEXTTOP"></P> 
+				<P>Time to set some bones. Click on the Add Bone button on the
+				  right side of the screen (for the last time, assuming a standard placement.
+				  Looks like this:
+				  <IMG SRC="../Images/AddBone.jpg" WIDTH="50" HEIGHT="131" BORDER="0"
+					ALIGN="TEXTTOP"></P> 
+				<P>Now click (when I say click, I mean Left Mouse Button (LMB)
+				  click - if I say Right Click, well, it's the other one - RMB) inside our
+				  HeadSeg and now drag (while holding down the LMB) towards the back of the body,
+				  stopping with the bone still inside the body. Now let up on the LMB. You should
+				  now have your first bone in the HeadSeg. Now check the alignment in the body by
+				  hitting '5' (Top View) and being sure the bone runs down the middle (more or
+				  less) of the body. If it's misaligned, click in the middle of the bone (between
+				  the two yellow highlighted ends) and drag it so it sits where you want it. You
+				  can also drag each of the endpoints by clicking on them and dragging.
+				  Congratulations, we've set our first bone!</P> 
+				<P>A quick word about hierarchy in bones. Let's say we set another
+				  bone right now (go ahead and try - we can always delete it later). Now,
+				  assuming you haven't done anything in the interrim, you should see in the
+				  Project Workspace window our new bone Bone2 is the child of Bone1. You can see
+				  the relationship by it's name sitting below and slightly inset relative to
+				  Bone1. As a child of the parent Bone1, if Bone1 translates (moves) Bone2 will
+				  follow it. Sometimes this is what you want and sometimes it's not. If you
+				  didn't want Bone2 to be the child of Bone1, you can simply click and hold on
+				  Bone2 and drag it up on to the model name and let go. Now it sits at the same
+				  level as Bone1.</P> 
+				<P>Now, let's set the leg bones for the legs. Click on the model
+				  name. Hit '2' for a front view and hit 'a' (Add Bone). Click and drag a bone to
+				  go along the upper left (your left) portion of leg. Now hit 4 to check the
+				  orientation from the left. Odds are you'll need to move it in to the leg from
+				  this view. Now switch back to the front view ('2') and add a lower leg bone to
+				  the lower leg. Note that it should be a child of the parent upper leg bone.</P>
+				
+				<P>Now let's rename those bones to something more descriptive than
+				  Bone1/2/3. Click on Bone1, hit F2 (rename) and type the new name, something
+				  descriptive like Body. Now do the same for Bone2 and Bone3, renaming them to
+				  Right Upper and Right Lower (now the creature's right, not yours).</P> 
+				<P>Do the same for the other leg, but remember to click on the
+				  model name before laying the upper bone or you'll need to drag that bone and
+				  move it up the hierarchy.</P> 
+				<P>Now, add a bone each for the eyes and lids and mouth parts for a
+				  total of six more. Your bone chain should look like this:
+				  <IMG SRC="../Images/BoneHierarchy.jpg" WIDTH="219" HEIGHT="220" BORDER="0"
+				  ALIGN="TEXTTOP"></P> 
+				<P>Now let's assign some CPs (Control Points) to each bone. Switch
+				  to the front view ('2') of the model. Now select the Body bone (either in the
+				  PWS - Project Workspace or by click on the bone in the model window). Now hit
+				  'g' or 'Shift-g' and select a point or two from the body. Now hit '/'. This
+				  should select the rest of the body. That was easy! </P> 
+				<P>Now do the same for the upper and lower segments of each leg.
+				  The mouth segments are probably best selected from the front view while the
+				  lids and eyes are probably best selected in Bird's Eye mode. Just click on each
+				  bone in turn, the shift-click on a single point of that part then hit '/' to
+				  get the rest of that part. You'll note that each part will blink all it's CPs
+				  the color of the bone so you can see what you've selected.</P> 
+				<P>You should have a fully boned body with body parts assigned to
+				  them. Examine the HeadSeg model from the example and be sure yours is defined
+				  similarly.</P> 
+				<P>We still need to create the BodySeg. Go to Modeling Mode (F5)
+				  and select the entire model. Hit ctrl-c (Copy). Now LMB click on Objects in the
+				  PWS and select New...-&gt;Model. Now go to Edit-&gt;Paste with Bones and
+				  shazam! A copy of the HeadSeg with bones! Saving us time for other things. Be
+				  sure to (in Modeling Mode) select and delete the mouth parts and eyes and lids
+				  from the BodySeg (be sure to rename your model to BodySeg). A body segment with
+				  eyes on this creature would just be *wrong* (or kind of cool - you decide).</P>
+				
+				<P>So, now we have two models, one of a head (HeadSeg) and one of
+				  the body (BodySeg). "Just one body segment?", you might ask. Yes, just one.
+				  We're going to use the joys of replication to let A:M handle multiple copies of
+				  this one segment, giving us a more complex creature with just two segments. Not
+				  bad.</P> 
+				<P>Now, one to the Basic Walk Action</P></TD> 
+		  </TR> 
+		  <TR> 
+			 <TD ALIGN="CENTER" WIDTH="100%"> 
+				<TABLE BORDER="1" CELLPADDING="0" CELLSPACING="0" WIDTH="100%"
+				BORDERCOLOR="#006060"> 
+				  <TR> 
+					 <TD VALIGN="top" COLSPAN="3" WIDTH="33%" BGCOLOR="#000000"
+					 ALIGN="CENTER"><A HREF="modeling.html">Previous</A></TD> 
+					 <TD VALIGN="top" WIDTH="34%" BGCOLOR="#000000"
+					 ALIGN="CENTER"><A HREF="../index.html">Home</A></TD> 
+					 <TD VALIGN="top" WIDTH="33%" BGCOLOR="#000000"
+					 ALIGN="CENTER"><A HREF="walkaction.htm">Next</A></TD> 
+				  </TR> 
+				</TABLE></TD> 
+		  </TR> 
+		  <TR> 
+			 <TD ALIGN="CENTER"> 
+				<P></P><HR> 
+				<P> <A HREF="http://www.mossor.org">Mossor.org Home</A> |
+				  <A HREF="../../../index.html">Desktop Studios Home</A></P> </TD> 
+		  </TR> 
+		  <TR> 
+			 <TD ALIGN="RIGHT"> 
+				<P><FONT SIZE="-1">This document maintained by
+				  <A HREF="mailto:webmaster@mossor.org">webmaster@mossor.org</A>.<BR>Material
+				  Copyright &copy; 1999-2001 Darrin Mossor</FONT></P></TD> 
+		  </TR> 
+		</TABLE></CENTER> </BODY>
+</HTML>

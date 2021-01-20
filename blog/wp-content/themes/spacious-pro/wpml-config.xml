@@ -1,0 +1,9 @@
+<wpml-config>
+  <admin-texts>
+    <key name="spacious">
+      <key name="spacious_header_info_text"/>
+      <key name="spacious_read_more_text"/>
+      <key name="spacious_footer_editor"/>
+    </key>
+  </admin-texts>
+</wpml-config>

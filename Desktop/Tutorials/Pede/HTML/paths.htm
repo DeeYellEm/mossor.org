@@ -1,0 +1,91 @@
+<!DOCTYPE HTML PUBLIC "-//SoftQuad Software//DTD HoTMetaL PRO 6.0::19990601::extensions to HTML 4.0//EN" "hmpro6.dtd">
+<HTML> 
+  <HEAD> 
+	 <TITLE>Desktop Studios</TITLE> 
+  </HEAD> 
+  <BODY BACKGROUND="../../../../Images/bg_1.jpg" TEXT="E5CB94" LINK="#33ff66"
+	ALINK="#FF0000" VLINK="#6699FF"> 
+	 <CENTER> 
+		<TABLE> 
+		  <TR> 
+			 <TD ALIGN="CENTER"><IMG SRC="../Images/PathTitle.jpg" BORDER="0"
+				WIDTH="400" HEIGHT="208"></TD> 
+		  </TR> 
+		  <TR> 
+			 <TD ALIGN="CENTER"> 
+				<H1>7: Paths</H1> <HR></TD> 
+		  </TR> 
+		  <TR> 
+			 <TD ALIGN="LEFT" WIDTH="80%"> 
+				<P>Paths are cool. paths will tell our actor (model, whatever)
+				  where to go.</P> 
+				<P>In this case, open our Basic3Pt choreography that we created
+				  earlier. Go to the top view. In the upper left corner, you should see an arrow
+				  with a plus sign (+) next to it. This is the add Path button. I prefer the
+				  shortcut (A), so we'll use that. Hit A and click in your choreography. While
+				  holding down the mouse button, drag away in the direction you'd like your model
+				  to follow. Release when you get part way there. Let's assume we're going to
+				  have several turns, so we'll need more CPs. Hit A again and click near the end
+				  of the segment we created, you should now have a third CP that you can drag to
+				  continue to path. Release when this CP is where you'd like it. Keep doing this
+				  until you get enough CPs to get the rough shape that you'd like for the path.
+				  Once completed, you can click on and drag individual CPs on the path (probably
+				  Path1 in the choreography) and get just the shape and run you want.</P> 
+				<P>By default this path will be at '0' in the Y direction or right
+				  on our flat patch plane. This is what we want for this tutorial, but it could
+				  just as easily go up and over a set of hills you constructed. But's let's walk
+				  flat before we climb hills.</P> 
+				<P>If all is well, you should now have Path1 in your Basic3Pt
+				  choreography. Now, we need to get something to travel this path. </P> 
+				<P>Go up to our HeadSeg, click on it (Left click) and drag it down
+				  to our choreography, releasing the mouse button once the HeadSeg is over
+				  Basic3Pt. You should now have a HeadSeg in the choreography. WooHoo! Pretty
+				  exciting, right? No, probably not. But now let's make it do something...</P> 
+				<P>Right click on the HeadSeg, select New Constraint-&gt;Path. Move
+				  to the Choreography window and the pointer should have turned in to the
+				  eyedropper. Click near Path1 and now the model is constrained to travel along
+				  Path1. If you advance the scrub bar, you should see the HeadSeg move along the
+				  path. Now let's get it walking!</P> 
+				<P>Drag the Walk Action down and drop it on HeadSeg in the Basic3Pt
+				  choreography in the PWS. Click on the new Shortcut to Walk under HeadSeg in the
+				  Choreography and look at the Properties. You should have "Use Stride Length"
+				  checked.</P> 
+				<P>If you drag the scrub bar now, you should see our HeadSeg hustle
+				  along the length of the Path1 in just 30 frames. Much too fast to look stylish.
+				  Also, unless we modify things, we're still using all 30 frames even though we
+				  don't want the last frame. In the Properties, change the Start and End in the
+				  Crop Range to go from 0 to 29. The "Out Of" field will still say 30. Now, under
+				  How to Execute, be sure Use Stride Length is checked and change the End to
+				  something longer, like (what I ended up with for my Path length (it's all a
+				  matter of taste): 11:09. Here is what my Properties look like:</P><IMG
+				SRC="../Images/ChorActionProp.jpg" WIDTH="500" HEIGHT="236" BORDER="0"> 
+				<P>Let's talk next about Model Reuse.</P></TD> 
+		  </TR> 
+		  <TR> 
+			 <TD ALIGN="CENTER" WIDTH="100%"> 
+				<TABLE BORDER="1" CELLPADDING="0" CELLSPACING="0" WIDTH="100%"
+				BORDERCOLOR="#006060"> 
+				  <TR> 
+					 <TD VALIGN="top" COLSPAN="3" WIDTH="33%" BGCOLOR="#000000"
+					 ALIGN="CENTER"><A HREF="choreography.htm">Previous</A></TD> 
+					 <TD VALIGN="top" WIDTH="34%" BGCOLOR="#000000"
+					 ALIGN="CENTER"><A HREF="../index.html">Home</A></TD> 
+					 <TD VALIGN="top" WIDTH="33%" BGCOLOR="#000000"
+					 ALIGN="CENTER"><A HREF="modelreuse.htm">Next</A></TD> 
+				  </TR> 
+				</TABLE></TD> 
+		  </TR> 
+		  <TR> 
+			 <TD ALIGN="CENTER"> 
+				<P></P><HR> 
+				<P> <A HREF="http://www.mossor.org">Mossor.org Home</A> |
+				  <A HREF="../../../index.html">Desktop Studios Home</A></P> </TD> 
+		  </TR> 
+		  <TR> 
+			 <TD ALIGN="RIGHT"> 
+				<P><FONT SIZE="-1">This document maintained by
+				  <A HREF="mailto:webmaster@mossor.org">webmaster@mossor.org</A>.<BR>Material
+				  Copyright &copy; 1999-2001 Darrin Mossor</FONT></P></TD> 
+		  </TR> 
+		</TABLE></CENTER> </BODY>
+</HTML>

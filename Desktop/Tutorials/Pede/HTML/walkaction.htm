@@ -1,0 +1,141 @@
+<!DOCTYPE HTML PUBLIC "-//SoftQuad Software//DTD HoTMetaL PRO 6.0::19990601::extensions to HTML 4.0//EN" "hmpro6.dtd">
+<HTML> 
+  <HEAD> 
+	 <TITLE>Desktop Studios</TITLE> 
+  </HEAD> 
+  <BODY BACKGROUND="../../../../Images/bg_1.jpg" TEXT="E5CB94" LINK="#33ff66"
+	ALINK="#FF0000" VLINK="#6699FF"> 
+	 <CENTER> 
+		<TABLE> 
+		  <TR> 
+			 <TD ALIGN="CENTER"><IMG SRC="../Images/WalkAction.jpg" BORDER="0"
+				WIDTH="400" HEIGHT="244"></TD> 
+		  </TR> 
+		  <TR> 
+			 <TD ALIGN="CENTER"> 
+				<H1>5: Basic Walk Action - 30 Frames of Strolling</H1> <HR></TD> 
+		  </TR> 
+		  <TR> 
+			 <TD ALIGN="LEFT" WIDTH="80%"> 
+				<P>When you consider that it takes a human in the neighborhood of
+				  12-18 months to learn to walk, the fact that we're going to teach this creature
+				  to walk in just a few short minutes is nothing short of spectacular. </P> 
+				<P>Step 1: Go to the PWS (Project Workspace) and click on Actions.
+				  Now Right Click on it. A menu will popup. Select New Action. Next you'll need
+				  to select which model this action will apply to. Select HeadSeg. If all goes
+				  well, you should have a new window pop up called Action1, looking something
+				  like this:</P><IMG SRC="../Images/BasicAction.jpg" ALT="BasicAction"
+				WIDTH="400" HEIGHT="259" BORDER="0"> 
+				<P>Before we go further, let's take a look at a classic walk cycle,
+				  as illustrated by Preston Blair:</P><IMG SRC="../Images/PrestonWalk.jpg"
+				ALT="Presont1" WIDTH="670" HEIGHT="89" BORDER="0"> 
+				<P>Now we're going to take a look at a modified cycle that I
+				  cribbed from these images and annotated:</P><IMG
+				SRC="../Images/PrestonWalkMod.jpg" ALT="PrestonMod" WIDTH="744" HEIGHT="120"
+				BORDER="0"> 
+				<P>This cycle is shorter (has fewer actual images) and runs from 0
+				  to 30. These will become the frames in our walk. I've called out frames 0, 7,
+				  14, 21 and 30 for specific reasons. 0 and 30 are copies of the same pose (for
+				  reasons we'll go in to later). 14 is the opposite (left leg back, right
+				  forward) of 0/30. 7 and 21 represent intermediate poses between the other two
+				  extremes. The unspecified frames will be filled in (interpolated or 'tweened')
+				  by A:M.</P> 
+				<P>30 is a copy of 0 because this will be a 30 frame cycle and if
+				  we cycled from 0 around to 30 then back to 0, we'd see a hitch as we hit 30
+				  then 0 (which are the same pose). If instead, we go from 0 to 29 (30 frames)
+				  then repeat, we should get a fluid, repeating walk cycle.</P> 
+				<P>With all that in mind, let's make a cycle.</P> 
+				<P>Step 2 (we had Step 1 earlier): Pose the HeadSeg in Action1
+				  something like Frame 0 above. For me, this was most easily done by grabbing the
+				  top of the knee (between the upper and lower leg) and dragging the knee
+				  forward. This will leave the end of the lower leg to behind, so now grab it and
+				  position it as needed by switching between the views. Do this for both legs and
+				  you should end up with somthing like (from the top) this:</P><IMG
+				SRC="../Images/Action_0.jpg" WIDTH="400" HEIGHT="287" BORDER="0"> 
+				<P>Once you are satisfied that this looks good (check all the
+				  views) hit the Keyframe button. It's a small Key shaped icon near the bottom.
+				  Since we're going to need this frame later, let's copy it by going to the Edit
+				  menu and selecting Copy Keyframe. </P> 
+				<P>Step 3: Now, go to the current frame field (it should now read
+				  00:00:00 if you use SMTP, if you are going by frames, it might read simply
+				  '0'), click in it and delete the current value and type '30'. We now want to
+				  paste our Keyframe from frame '0', so go to the Edit menu again and choose
+				  Paste KeyFrame.</P> 
+				<P>Step 4: Go back to the current frame field and enter '14' to go
+				  to frame 14. Referring to our walk cycle above, in this frame we want it to be
+				  the opposite of frames 0/30. Pose this frame accordingly.</P> 
+				<P>If you scrub using the frame tool between frame 0 and 30 now,
+				  you'll see the start of our cycle. It's pretty boring, though, since the feet
+				  will likely just slide along the ground, not very realistically and, worse yet,
+				  not very interestingly.</P> 
+				<P>Step 5: Now go to frame '7'. This is intermediate between the
+				  extreme poses from frame 0 and 14. Note that in addition to the change in the
+				  legs, the head level has changed as well, popping up as it transitions from 0
+				  to 14. Do the same for frame 21, as it transitions from 14 to 30.</P> 
+				<P>Step 6: Again, scrub through the walk. You should see a much
+				  more interesting walk, with the body going up and down, legs going through the
+				  cycle in a much more natural way. With only 5 keyframes (one of which is a
+				  copy) we've got a workable walk cycle. If everything has gone as expected, you
+				  should see a PWS that looks something like this:</P><IMG
+				SRC="../Images/ActionEx.jpg" WIDTH="600" HEIGHT="366" BORDER="0"> 
+				<P>Some items to note from the screen shot:</P> 
+				<OL> 
+				  <LI>Note that only the bones that changed (the Body, upper and
+					 lower legs) get captured in the Keyframe </LI> 
+				  <LI>Note the Keyframes at 0, 7, 14, 21 and 30.</LI> 
+				  <LI>This is the Keyframe button. It's a little key!</LI> 
+				  <LI>This is the scrub bar</LI> 
+				  <LI>This is the current frame field</LI> 
+				</OL> 
+				<P>Here's a cool thing to keep in mind with regards to reusing
+				  actions. Since we only keyframed bones that exist in both the HeadSeg and
+				  BodySeg, any action that we make that only uses bones shared between those two
+				  models will work in both models. So, not only did we create a walk cycle for
+				  the HeadSeg, we also created one that will work just as well for the
+				  BodySeg.</P> 
+				<P>Now, if we were to use this Action in a choreography as-is, we
+				  would apply it to a model, indicate how many times we want it to repeat over
+				  what range of time and be good. Rather than do that, we're going to use Stride
+				  Length, a nifty feature of the Action, to take care of applying the correct
+				  number of cycles over the (physical) length of the path it will eventually
+				  walk. </P> 
+				<P>In the Action's General Properties panel, click in the box that
+				  says "Stride Length". Once you do that, you should see a grid appear in the
+				  Action window. This is used to determine the length of the stride. In the case
+				  of my model, the stride length turned out to be 2.71. Stride length is great to
+				  keep your model from appearing to "skate" or slide across the ground as it
+				  walks. For a tutorial dedicated to Stride Length, try this:
+				  <A HREF="http://www.hash.com/users/jsherwood/tutes/walk/walk1.html">PuttyDude
+				  Walking on a Path</A>.</P> 
+				<P>Now that the Action is done, let's click on Action1, hit F2 and
+				  rename it to Walk.</P> 
+				<P>Now, let's build a simple Choreography to perform in.</P></TD> 
+		  </TR> 
+		  <TR> 
+			 <TD ALIGN="CENTER" WIDTH="100%"> 
+				<TABLE BORDER="1" CELLPADDING="0" CELLSPACING="0" WIDTH="100%"
+				 BORDERCOLOR="#006060"> 
+				  <TR> 
+					 <TD VALIGN="top" COLSPAN="3" WIDTH="33%" BGCOLOR="#000000"
+					  ALIGN="CENTER"><A HREF="rigging.htm">Previous</A></TD> 
+					 <TD VALIGN="top" WIDTH="34%" BGCOLOR="#000000"
+					  ALIGN="CENTER"><A HREF="../index.html">Home</A></TD> 
+					 <TD VALIGN="top" WIDTH="33%" BGCOLOR="#000000"
+					  ALIGN="CENTER"><A HREF="choreography.htm">Next</A></TD> 
+				  </TR> 
+				</TABLE></TD> 
+		  </TR> 
+		  <TR> 
+			 <TD ALIGN="CENTER"> 
+				<P></P><HR> 
+				<P> <A HREF="http://www.mossor.org">Mossor.org Home</A> |
+				  <A HREF="../../../index.html">Desktop Studios Home</A></P> </TD> 
+		  </TR> 
+		  <TR> 
+			 <TD ALIGN="RIGHT"> 
+				<P><FONT SIZE="-1">This document maintained by
+				  <A HREF="mailto:webmaster@mossor.org">webmaster@mossor.org</A>.<BR>Material
+				  Copyright &copy; 1999-2001 Darrin Mossor</FONT></P></TD> 
+		  </TR> 
+		</TABLE></CENTER> </BODY>
+</HTML>

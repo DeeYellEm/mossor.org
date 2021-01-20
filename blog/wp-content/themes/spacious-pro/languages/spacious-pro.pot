@@ -1,0 +1,1621 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Spacious Pro\n"
+"POT-Creation-Date: 2014-06-18 13:54+0545\n"
+"PO-Revision-Date: 2014-06-18 13:54+0545\n"
+"Last-Translator: \n"
+"Language-Team: ThemeGrill <themegrill@gmail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr_x;_x;_nx;_ex;esc_attr__;esc_attr_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:22
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:24
+msgid "It looks like nothing was found at this location. Try the search below."
+msgstr ""
+
+#: comments.php:31
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgstr ""
+
+#: comments.php:38 comments.php:55
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:39 comments.php:56
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:40 comments.php:57
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:67
+msgid "Comments are closed."
+msgstr ""
+
+#: content-blog-full-content.php:23 content-page.php:17 content-single.php:29
+msgid "Pages:"
+msgstr ""
+
+#: content-blog-full-content.php:39 content-blog-image-large.php:52
+#: content-blog-image-medium.php:54 content-single.php:45 content.php:41
+#: inc/widgets/widgets.php:814
+msgid "No Comments"
+msgstr ""
+
+#: content-blog-full-content.php:39 content-blog-image-large.php:52
+#: content-blog-image-medium.php:54 content-single.php:45 content.php:41
+#: inc/widgets/widgets.php:814
+msgid "1 Comment"
+msgstr ""
+
+#: content-blog-full-content.php:39 content-blog-image-large.php:52
+#: content-blog-image-medium.php:54 content-single.php:45 content.php:41
+#: inc/widgets/widgets.php:814
+msgid "% Comments"
+msgstr ""
+
+#: content-blog-full-content.php:39 content-blog-image-large.php:52
+#: content-blog-image-medium.php:54 content-single.php:45 content.php:41
+#: inc/widgets/widgets.php:814
+msgid "Comments Off"
+msgstr ""
+
+#: content-blog-full-content.php:41 content-blog-image-large.php:54
+#: content-blog-image-medium.php:56 content-page.php:26 content-single.php:47
+#: content.php:43 inc/widgets/widgets.php:816
+msgid "Edit"
+msgstr ""
+
+#: content-blog-image-large.php:55 content-blog-image-medium.php:57
+#: content.php:44 inc/header-functions.php:190 inc/widgets/widgets.php:261
+#: inc/widgets/widgets.php:374 inc/widgets/widgets.php:817 options.php:338
+#: options.php:467
+msgid "Read more"
+msgstr ""
+
+#: content-single.php:22
+msgid "Tagged on: "
+msgstr ""
+
+#: header.php:102
+msgid "Menu"
+msgstr ""
+
+#: inc/admin/meta-boxes.php:16 inc/admin/meta-boxes.php:18
+msgid "Select Layout"
+msgstr ""
+
+#: inc/admin/meta-boxes.php:28
+msgid "Default Layout"
+msgstr ""
+
+#: inc/admin/meta-boxes.php:33 inc/widgets/widgets.php:18
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/admin/meta-boxes.php:38 inc/widgets/widgets.php:29
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/admin/meta-boxes.php:43
+msgid "No Sidebar Full Width"
+msgstr ""
+
+#: inc/admin/meta-boxes.php:48
+msgid "No Sidebar Content Centered"
+msgstr ""
+
+#: inc/admin/options/includes/class-options-framework-admin.php:85
+#: inc/admin/options/includes/class-options-framework-admin.php:86
+#: inc/admin/options/includes/class-options-framework-admin.php:307
+msgid "Theme Options"
+msgstr ""
+
+#: inc/admin/options/includes/class-options-framework-admin.php:173
+msgid "Save Options"
+msgstr ""
+
+#: inc/admin/options/includes/class-options-framework-admin.php:174
+msgid "Restore Defaults"
+msgstr ""
+
+#: inc/admin/options/includes/class-options-framework-admin.php:174
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr ""
+
+#: inc/admin/options/includes/class-options-framework-admin.php:205
+msgid "Default options restored."
+msgstr ""
+
+#: inc/admin/options/includes/class-options-framework-admin.php:259
+msgid "Options saved."
+msgstr ""
+
+#: inc/admin/options/includes/class-options-media-uploader.php:63
+msgid "No file chosen"
+msgstr ""
+
+#: inc/admin/options/includes/class-options-media-uploader.php:66
+#: inc/admin/options/includes/class-options-media-uploader.php:119
+msgid "Upload"
+msgstr ""
+
+#: inc/admin/options/includes/class-options-media-uploader.php:68
+#: inc/admin/options/includes/class-options-media-uploader.php:120
+msgid "Remove"
+msgstr ""
+
+#: inc/admin/options/includes/class-options-media-uploader.php:71
+msgid "Upgrade your version of WordPress for full media support."
+msgstr ""
+
+#: inc/admin/options/includes/class-options-media-uploader.php:95
+msgid "View File"
+msgstr ""
+
+#: inc/admin/options/includes/class-options-sanitization.php:241
+msgid "No Repeat"
+msgstr ""
+
+#: inc/admin/options/includes/class-options-sanitization.php:242
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: inc/admin/options/includes/class-options-sanitization.php:243
+msgid "Repeat Vertically"
+msgstr ""
+
+#: inc/admin/options/includes/class-options-sanitization.php:244
+msgid "Repeat All"
+msgstr ""
+
+#: inc/admin/options/includes/class-options-sanitization.php:257
+msgid "Top Left"
+msgstr ""
+
+#: inc/admin/options/includes/class-options-sanitization.php:258
+msgid "Top Center"
+msgstr ""
+
+#: inc/admin/options/includes/class-options-sanitization.php:259
+msgid "Top Right"
+msgstr ""
+
+#: inc/admin/options/includes/class-options-sanitization.php:260
+msgid "Middle Left"
+msgstr ""
+
+#: inc/admin/options/includes/class-options-sanitization.php:261
+msgid "Middle Center"
+msgstr ""
+
+#: inc/admin/options/includes/class-options-sanitization.php:262
+msgid "Middle Right"
+msgstr ""
+
+#: inc/admin/options/includes/class-options-sanitization.php:263
+msgid "Bottom Left"
+msgstr ""
+
+#: inc/admin/options/includes/class-options-sanitization.php:264
+msgid "Bottom Center"
+msgstr ""
+
+#: inc/admin/options/includes/class-options-sanitization.php:265
+msgid "Bottom Right"
+msgstr ""
+
+#: inc/admin/options/includes/class-options-sanitization.php:278
+msgid "Scroll Normally"
+msgstr ""
+
+#: inc/admin/options/includes/class-options-sanitization.php:279
+msgid "Fixed in Place"
+msgstr ""
+
+#: inc/admin/options/includes/class-options-sanitization.php:353
+msgid "Normal"
+msgstr ""
+
+#: inc/admin/options/includes/class-options-sanitization.php:354
+msgid "Italic"
+msgstr ""
+
+#: inc/admin/options/includes/class-options-sanitization.php:355
+msgid "Bold"
+msgstr ""
+
+#: inc/admin/options/includes/class-options-sanitization.php:356
+msgid "Bold Italic"
+msgstr ""
+
+#: inc/functions.php:602
+msgid "Post navigation"
+msgstr ""
+
+#: inc/functions.php:606 navigation.php:42
+msgid "&larr;"
+msgstr ""
+
+#: inc/functions.php:607 navigation.php:43
+msgid "&rarr;"
+msgstr ""
+
+#: inc/functions.php:612
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: inc/functions.php:616
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: inc/functions.php:642
+msgid "Pingback:"
+msgstr ""
+
+#: inc/functions.php:642
+msgid "(Edit)"
+msgstr ""
+
+#: inc/functions.php:657
+msgid "Post author"
+msgstr ""
+
+#: inc/functions.php:660
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/functions.php:662
+#, php-format
+msgid "<a class=\"comment-permalink\" href=\"%1$s\">Permalink</a>"
+msgstr ""
+
+#: inc/functions.php:668
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/functions.php:673
+msgid "Reply"
+msgstr ""
+
+#: inc/functions.php:727 inc/header-functions.php:83 options.php:278
+msgid "WordPress"
+msgstr ""
+
+#: inc/functions.php:736
+msgid "ThemeGrill"
+msgstr ""
+
+#: inc/functions.php:745 options.php:343
+msgid "Copyright &copy; "
+msgstr ""
+
+#: inc/functions.php:745 options.php:343
+msgid "Theme by: "
+msgstr ""
+
+#: inc/functions.php:745 options.php:343
+msgid "Powered by: "
+msgstr ""
+
+#: inc/header-functions.php:47
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: inc/header-functions.php:65 options.php:260
+msgid "Facebook"
+msgstr ""
+
+#: inc/header-functions.php:66 options.php:261
+msgid "Twitter"
+msgstr ""
+
+#: inc/header-functions.php:67 options.php:262
+msgid "GooglePlus"
+msgstr ""
+
+#: inc/header-functions.php:68 options.php:263
+msgid "Instagram"
+msgstr ""
+
+#: inc/header-functions.php:69 options.php:264
+msgid "CodePen"
+msgstr ""
+
+#: inc/header-functions.php:70 options.php:265
+msgid "Digg"
+msgstr ""
+
+#: inc/header-functions.php:71 options.php:266
+msgid "Dribbble"
+msgstr ""
+
+#: inc/header-functions.php:72 options.php:267
+msgid "Flickr"
+msgstr ""
+
+#: inc/header-functions.php:73 options.php:268
+msgid "GitHub"
+msgstr ""
+
+#: inc/header-functions.php:74 options.php:269
+msgid "LinkedIn"
+msgstr ""
+
+#: inc/header-functions.php:75 options.php:270
+msgid "Pinterest"
+msgstr ""
+
+#: inc/header-functions.php:76 options.php:271
+msgid "Polldaddy"
+msgstr ""
+
+#: inc/header-functions.php:77 options.php:272
+msgid "Pocket"
+msgstr ""
+
+#: inc/header-functions.php:78 options.php:273
+msgid "Reddit"
+msgstr ""
+
+#: inc/header-functions.php:79 options.php:274
+msgid "Skype"
+msgstr ""
+
+#: inc/header-functions.php:80 options.php:275
+msgid "StumbleUpon"
+msgstr ""
+
+#: inc/header-functions.php:81 options.php:276
+msgid "Tumblr"
+msgstr ""
+
+#: inc/header-functions.php:82 options.php:277
+msgid "Vimeo"
+msgstr ""
+
+#: inc/header-functions.php:84 options.php:279
+msgid "YouTube"
+msgstr ""
+
+#: inc/header-functions.php:85 options.php:280
+msgid "RSS"
+msgstr ""
+
+#: inc/header-functions.php:86 options.php:281
+msgid "Mail"
+msgstr ""
+
+#: inc/header-functions.php:246
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: inc/header-functions.php:254
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: inc/header-functions.php:257
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: inc/header-functions.php:260
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: inc/header-functions.php:263
+msgid "Asides"
+msgstr ""
+
+#: inc/header-functions.php:266
+msgid "Images"
+msgstr ""
+
+#: inc/header-functions.php:269
+msgid "Videos"
+msgstr ""
+
+#: inc/header-functions.php:272
+msgid "Quotes"
+msgstr ""
+
+#: inc/header-functions.php:275
+msgid "Links"
+msgstr ""
+
+#: inc/header-functions.php:281 sidebar-left.php:29 sidebar.php:29
+msgid "Archives"
+msgstr ""
+
+#: inc/header-functions.php:286
+msgid "Page NOT Found"
+msgstr ""
+
+#: inc/header-functions.php:289
+msgid "Search Results"
+msgstr ""
+
+#: inc/header-functions.php:318
+msgid "You are here:"
+msgstr ""
+
+#: inc/widgets/widgets.php:20
+msgid "Shows widgets at Right side."
+msgstr ""
+
+#: inc/widgets/widgets.php:31
+msgid "Shows widgets at Left side."
+msgstr ""
+
+#: inc/widgets/widgets.php:40
+msgid "Header Sidebar"
+msgstr ""
+
+#: inc/widgets/widgets.php:42
+msgid "Shows widgets in header section just above the main navigation menu."
+msgstr ""
+
+#: inc/widgets/widgets.php:51
+msgid "Business Top Sidebar"
+msgstr ""
+
+#: inc/widgets/widgets.php:53
+msgid "Shows widgets on Business Page Template Top Section."
+msgstr ""
+
+#: inc/widgets/widgets.php:53 inc/widgets/widgets.php:87
+msgid ""
+"Suitable widget: TG: Services, TG: Call To Action Widget, TG: Featured "
+"Posts, TG: Featured Widget, TG: Our Clients"
+msgstr ""
+
+#: inc/widgets/widgets.php:62
+msgid "Business Middle Left Sidebar"
+msgstr ""
+
+#: inc/widgets/widgets.php:64
+msgid "Shows widgets on Business Page Template Middle Section Left Half."
+msgstr ""
+
+#: inc/widgets/widgets.php:64 inc/widgets/widgets.php:75
+msgid "Suitable widget: TG: Testimonial, TG: Featured Single Page"
+msgstr ""
+
+#: inc/widgets/widgets.php:73
+msgid "Business Middle Right Sidebar"
+msgstr ""
+
+#: inc/widgets/widgets.php:75
+msgid "Shows widgets on Business Page Template Middle Section Right Half."
+msgstr ""
+
+#: inc/widgets/widgets.php:85
+msgid "Business Bottom Sidebar"
+msgstr ""
+
+#: inc/widgets/widgets.php:87
+msgid "Shows widgets on Business Page Template Bottom Section."
+msgstr ""
+
+#: inc/widgets/widgets.php:96
+msgid "Contact Page Sidebar"
+msgstr ""
+
+#: inc/widgets/widgets.php:98
+msgid "Shows widgets on Contact Page Template."
+msgstr ""
+
+#: inc/widgets/widgets.php:107
+msgid "Error 404 Page Sidebar"
+msgstr ""
+
+#: inc/widgets/widgets.php:109
+msgid "Shows widgets on Error 404 page."
+msgstr ""
+
+#: inc/widgets/widgets.php:118
+msgid "Footer Sidebar One"
+msgstr ""
+
+#: inc/widgets/widgets.php:120
+msgid "Shows widgets at footer sidebar one."
+msgstr ""
+
+#: inc/widgets/widgets.php:129
+msgid "Footer Sidebar Two"
+msgstr ""
+
+#: inc/widgets/widgets.php:131
+msgid "Shows widgets at footer sidebar two."
+msgstr ""
+
+#: inc/widgets/widgets.php:140
+msgid "Footer Sidebar Three"
+msgstr ""
+
+#: inc/widgets/widgets.php:142
+msgid "Shows widgets at footer sidebar three."
+msgstr ""
+
+#: inc/widgets/widgets.php:151
+msgid "Footer Sidebar Four"
+msgstr ""
+
+#: inc/widgets/widgets.php:153
+msgid "Shows widgets at footer sidebar four."
+msgstr ""
+
+#: inc/widgets/widgets.php:179
+msgid "Display Featured Single Page"
+msgstr ""
+
+#: inc/widgets/widgets.php:181
+msgid "TG: Featured Single Page"
+msgstr ""
+
+#: inc/widgets/widgets.php:190
+msgid ""
+"Suitable for Home Top Sidebar, Home Bottom Left Sidebar and Side Sidbar."
+msgstr ""
+
+#: inc/widgets/widgets.php:193 inc/widgets/widgets.php:540
+#: inc/widgets/widgets.php:585 inc/widgets/widgets.php:701
+#: inc/widgets/widgets.php:859
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/widgets.php:196
+msgid "Displays the title of the Page if title input is empty."
+msgstr ""
+
+#: inc/widgets/widgets.php:199 inc/widgets/widgets.php:303
+#: inc/widgets/widgets.php:594
+msgid "Page"
+msgstr ""
+
+#: inc/widgets/widgets.php:203
+msgid "Remove Featured image"
+msgstr ""
+
+#: inc/widgets/widgets.php:208 inc/widgets/widgets.php:213
+msgid "Show Image Before Title"
+msgstr ""
+
+#: inc/widgets/widgets.php:209 inc/widgets/widgets.php:214
+msgid "Show Image After Title"
+msgstr ""
+
+#: inc/widgets/widgets.php:279
+msgid ""
+"Display some pages as services. Best for Business Top or Bottom sidebar."
+msgstr ""
+
+#: inc/widgets/widgets.php:281
+msgid "TG: Services"
+msgstr ""
+
+#: inc/widgets/widgets.php:299
+msgid "Link featured image to their respective page"
+msgstr ""
+
+#: inc/widgets/widgets.php:395
+msgid "Use this widget to show the call to action section."
+msgstr ""
+
+#: inc/widgets/widgets.php:397
+msgid "TG: Call To Action Widget"
+msgstr ""
+
+#: inc/widgets/widgets.php:413
+msgid "Call to Action Main Text"
+msgstr ""
+
+#: inc/widgets/widgets.php:415
+msgid "Call to Action Additional Text"
+msgstr ""
+
+#: inc/widgets/widgets.php:418
+msgid "Button Text:"
+msgstr ""
+
+#: inc/widgets/widgets.php:422
+msgid "Button Redirect Link:"
+msgstr ""
+
+#: inc/widgets/widgets.php:495
+msgid "Display Testimonial"
+msgstr ""
+
+#: inc/widgets/widgets.php:497
+msgid "TG: Testimonial"
+msgstr ""
+
+#: inc/widgets/widgets.php:542
+msgid "Testimonial Description"
+msgstr ""
+
+#: inc/widgets/widgets.php:545
+msgid "Name:"
+msgstr ""
+
+#: inc/widgets/widgets.php:548
+msgid "Byline:"
+msgstr ""
+
+#: inc/widgets/widgets.php:562
+msgid ""
+"Show your some pages as recent work. Best for Business Top or Bottom sidebar."
+msgstr ""
+
+#: inc/widgets/widgets.php:564
+msgid "TG: Featured Widget"
+msgstr ""
+
+#: inc/widgets/widgets.php:588 inc/widgets/widgets.php:704
+#: inc/widgets/widgets.php:862
+msgid "Description"
+msgstr ""
+
+#: inc/widgets/widgets.php:679
+msgid "Display latest posts or posts of specific category"
+msgstr ""
+
+#: inc/widgets/widgets.php:681
+msgid "TG: Featured Posts"
+msgstr ""
+
+#: inc/widgets/widgets.php:707
+msgid "Number of posts to display:"
+msgstr ""
+
+#: inc/widgets/widgets.php:711
+msgid "Large Featured Image"
+msgstr ""
+
+#: inc/widgets/widgets.php:712
+msgid "Medium Featured Image"
+msgstr ""
+
+#: inc/widgets/widgets.php:714
+msgid "Show latest Posts"
+msgstr ""
+
+#: inc/widgets/widgets.php:715
+msgid "Show posts from a category"
+msgstr ""
+
+#: inc/widgets/widgets.php:718
+msgid "Select category"
+msgstr ""
+
+#: inc/widgets/widgets.php:839
+msgid "Widget to show clients/partners images"
+msgstr ""
+
+#: inc/widgets/widgets.php:841
+msgid "TG: Our Clients"
+msgstr ""
+
+#: inc/widgets/widgets.php:857
+msgid ""
+"Note: To add the image. Go to Media->Add New. Upload an image. Copy the "
+"image path link and paste in image input field. Recommended size for the "
+"image is 200px * 75px."
+msgstr ""
+
+#: inc/widgets/widgets.php:871
+msgid "Image Path Link "
+msgstr ""
+
+#: inc/widgets/widgets.php:874
+msgid "Redirect Link "
+msgstr ""
+
+#: inc/widgets/widgets.php:877
+msgid "Hover Title Text "
+msgstr ""
+
+#: navigation.php:22
+msgid "&laquo; Previous"
+msgstr ""
+
+#: navigation.php:23
+msgid "Next &raquo;"
+msgstr ""
+
+#: navigation.php:34
+msgid "&larr; Previous"
+msgstr ""
+
+#: navigation.php:35
+msgid "Next &rarr;"
+msgstr ""
+
+#: no-results.php:18
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: no-results.php:22
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: no-results.php:27
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: options.php:32
+msgid "Header"
+msgstr ""
+
+#: options.php:38
+msgid "Header Logo"
+msgstr ""
+
+#: options.php:39
+msgid "Upload logo for your header."
+msgstr ""
+
+#: options.php:46
+msgid "Header Logo Only"
+msgstr ""
+
+#: options.php:47
+msgid "Header Text Only"
+msgstr ""
+
+#: options.php:48
+msgid "Show Both"
+msgstr ""
+
+#: options.php:49
+msgid "Disable"
+msgstr ""
+
+#: options.php:52
+msgid "Show"
+msgstr ""
+
+#: options.php:53
+msgid "Choose the option that you want."
+msgstr ""
+
+#: options.php:62
+msgid "Header Display Type"
+msgstr ""
+
+#: options.php:63
+msgid "Choose the header display type that you want."
+msgstr ""
+
+#: options.php:68
+msgid "Type 1 (Default): Header text & logo on left, menu on the right"
+msgstr ""
+
+#: options.php:69
+msgid "Type 2: Menu on left, header text & logo on right"
+msgstr ""
+
+#: options.php:75
+msgid "Activate Header Top Bar"
+msgstr ""
+
+#: options.php:76
+msgid ""
+"Check to show top header bar. The top header bar includes social icons area, "
+"small text area and menu area."
+msgstr ""
+
+#: options.php:84
+msgid "Heder Top Bar Display Type"
+msgstr ""
+
+#: options.php:85
+msgid "Choose top bar display type."
+msgstr ""
+
+#: options.php:90
+msgid ""
+"Type 1 (Default): Social icons & small text area on left, menu area on right"
+msgstr ""
+
+#: options.php:91
+msgid "Type 2: Social icons & small text area on right, menu area on left"
+msgstr ""
+
+#: options.php:102
+msgid "Header Info Text"
+msgstr ""
+
+#: options.php:103
+msgid ""
+"You can add phone numbers, other contact info here as you like. This box "
+"also accepts shortcodes."
+msgstr ""
+
+#: options.php:110
+msgid "Need to replace Header Image?"
+msgstr ""
+
+#: options.php:111 options.php:232
+#, php-format
+msgid "<a href=\"%1$s\">Click Here</a>"
+msgstr ""
+
+#: options.php:117
+msgid "Heder Image Position"
+msgstr ""
+
+#: options.php:118
+msgid "Choose top header image display position."
+msgstr ""
+
+#: options.php:123
+msgid ""
+"Position Above (Default): Display the Header image just above the site title "
+"and main menu part."
+msgstr ""
+
+#: options.php:124
+msgid ""
+"Position Below: Display the Header image just below the site title and main "
+"menu part."
+msgstr ""
+
+#: options.php:132
+msgid "Design"
+msgstr ""
+
+#: options.php:137
+msgid "Site Layout"
+msgstr ""
+
+#: options.php:138
+msgid "Choose your site layout. The change is reflected in whole site."
+msgstr ""
+
+#: options.php:143
+msgid "Boxed layout with content width of 1218px"
+msgstr ""
+
+#: options.php:144
+msgid "Boxed layout with content width of 978px"
+msgstr ""
+
+#: options.php:145
+msgid "Wide layout with content width of 1218px"
+msgstr ""
+
+#: options.php:146
+msgid "Wide layout with content width of 978px"
+msgstr ""
+
+#: options.php:151
+msgid "Default layout"
+msgstr ""
+
+#: options.php:152
+msgid ""
+"Select default layout. This layout will be reflected in whole site archives, "
+"search etc. The layout for a single post and page can be controlled from "
+"below options."
+msgstr ""
+
+#: options.php:165
+msgid "Default layout for pages only"
+msgstr ""
+
+#: options.php:166
+msgid ""
+"Select default layout for pages. This layout will be reflected in all pages "
+"unless unique layout is set for specific page."
+msgstr ""
+
+#: options.php:179
+msgid "Default layout for single posts only"
+msgstr ""
+
+#: options.php:180
+msgid ""
+"Select default layout for single posts. This layout will be reflected in all "
+"single posts unless unique layout is set for specific post."
+msgstr ""
+
+#: options.php:193
+msgid "Archive/Category/Index posts listing display type"
+msgstr ""
+
+#: options.php:194
+msgid "Choose the display type for the archive/category view."
+msgstr ""
+
+#: options.php:199
+msgid "Blog Image Large"
+msgstr ""
+
+#: options.php:200
+msgid "Blog Image Medium"
+msgstr ""
+
+#: options.php:201
+msgid "Blog Image Alternate Medium"
+msgstr ""
+
+#: options.php:202
+msgid "Blog Image Round Medium"
+msgstr ""
+
+#: options.php:203
+msgid "Blog Image Round Alternate Medium"
+msgstr ""
+
+#: options.php:204
+msgid "Blog Full Content"
+msgstr ""
+
+#: options.php:210
+msgid "Primary color option"
+msgstr ""
+
+#: options.php:211
+msgid ""
+"This will reflect in links, buttons and many others. Choose a color to match "
+"your site."
+msgstr ""
+
+#: options.php:219
+msgid "Color Skin"
+msgstr ""
+
+#: options.php:220
+msgid "Choose the light or dark skin. This will be reflected in whole site."
+msgstr ""
+
+#: options.php:231
+msgid "Need to replace default background?"
+msgstr ""
+
+#: options.php:232
+msgid ""
+"Note: The background will only be seen if you choose any of the boxed layout "
+"option in site layout option."
+msgstr ""
+
+#: options.php:237
+msgid "Custom CSS"
+msgstr ""
+
+#: options.php:238
+msgid "Write your custom css."
+msgstr ""
+
+#: options.php:247
+msgid "Social Links"
+msgstr ""
+
+#: options.php:253
+msgid "Activate social links area"
+msgstr ""
+
+#: options.php:254
+msgid ""
+"Check to activate social links area. You also need to activate the header "
+"top bar section in Header options to show this social links area"
+msgstr ""
+
+#: options.php:287
+#, php-format
+msgid "Add link for %1$s"
+msgstr ""
+
+#: options.php:294
+msgid "Check to show in new tab"
+msgstr ""
+
+#: options.php:304
+msgid "Additional"
+msgstr ""
+
+#: options.php:310
+msgid "Activate favicon"
+msgstr ""
+
+#: options.php:311
+msgid "Check to activate favicon. Upload fav icon from below option"
+msgstr ""
+
+#: options.php:319
+msgid "Upload favicon"
+msgstr ""
+
+#: options.php:320
+msgid "Upload favicon for your site."
+msgstr ""
+
+#: options.php:327
+msgid "Excerpt Length"
+msgstr ""
+
+#: options.php:328
+msgid ""
+"Enter the number of Words you wish to show on excerpt. Default value is 40 "
+"words."
+msgstr ""
+
+#: options.php:335
+msgid "Excerpt Read More Text"
+msgstr ""
+
+#: options.php:336
+msgid "Replace the default Read more text with your own words"
+msgstr ""
+
+#: options.php:346
+msgid "Footer Copyright Editor"
+msgstr ""
+
+#: options.php:347
+msgid ""
+"Edit the Copyright information in your footer. You can also use shortcodes "
+"[the-year], [site-link], [wp-link], [tg-link] for current year, your site "
+"link, WordPress site link and ThemeGrill site link respectively."
+msgstr ""
+
+#: options.php:356
+msgid "Slider"
+msgstr ""
+
+#: options.php:362
+msgid "Activate slider"
+msgstr ""
+
+#: options.php:363
+msgid "Check to activate slider."
+msgstr ""
+
+#: options.php:371
+msgid "Slider Status"
+msgstr ""
+
+#: options.php:372
+msgid "Choose the slider status that you want."
+msgstr ""
+
+#: options.php:377
+msgid "Slider on Home/Front page"
+msgstr ""
+
+#: options.php:378
+msgid "Slider on all pages"
+msgstr ""
+
+#: options.php:384
+msgid "Slider Settings"
+msgstr ""
+
+#: options.php:385
+msgid "Slider transition effect"
+msgstr ""
+
+#: options.php:385
+msgid "Choose the transition effect that you like. Default is \"fade\"."
+msgstr ""
+
+#: options.php:391
+msgid "Fade"
+msgstr ""
+
+#: options.php:392
+msgid "Wipe"
+msgstr ""
+
+#: options.php:393
+msgid "scrollUp"
+msgstr ""
+
+#: options.php:394
+msgid "scrollDown"
+msgstr ""
+
+#: options.php:395
+msgid "scrollLeft"
+msgstr ""
+
+#: options.php:396
+msgid "scrollRight"
+msgstr ""
+
+#: options.php:397
+msgid "blindX"
+msgstr ""
+
+#: options.php:398
+msgid "blindY"
+msgstr ""
+
+#: options.php:399
+msgid "blindZ"
+msgstr ""
+
+#: options.php:400
+msgid "Cover"
+msgstr ""
+
+#: options.php:401
+msgid "Shuffle"
+msgstr ""
+
+#: options.php:407
+msgid "Slider transition delay time"
+msgstr ""
+
+#: options.php:407
+msgid "Add number in seconds. Default is 4."
+msgstr ""
+
+#: options.php:416
+msgid "Slider transition length time"
+msgstr ""
+
+#: options.php:416
+msgid "Add number in seconds. Default is 1."
+msgstr ""
+
+#: options.php:425
+msgid "Number of slides"
+msgstr ""
+
+#: options.php:425
+msgid "Enter the number of slides you want then click save."
+msgstr ""
+
+#: options.php:437
+#, php-format
+msgid "Image Upload #%1$s"
+msgstr ""
+
+#: options.php:438
+msgid "Upload slider image."
+msgstr ""
+
+#: options.php:443
+msgid "Enter title for your slider."
+msgstr ""
+
+#: options.php:449
+msgid "Enter your slider description."
+msgstr ""
+
+#: options.php:455
+msgid "Slider text position."
+msgstr ""
+
+#: options.php:460
+msgid "Right side"
+msgstr ""
+
+#: options.php:461
+msgid "Left side"
+msgstr ""
+
+#: options.php:465
+msgid "Enter the button text. Default is \"Read more\""
+msgstr ""
+
+#: options.php:471
+msgid "Enter link to redirect slider when clicked"
+msgstr ""
+
+#: options.php:481
+msgid "Typography"
+msgstr ""
+
+#: options.php:487
+msgid "Google Font Options"
+msgstr ""
+
+#: options.php:488
+msgid "Site title font. Default is \"Lato\"."
+msgstr ""
+
+#: options.php:496
+msgid "Site tagline font. Default is \"Lato\"."
+msgstr ""
+
+#: options.php:504
+msgid "Menu font. Default is \"Lato\"."
+msgstr ""
+
+#: options.php:512
+msgid "All Titles font. Default is \"Lato\"."
+msgstr ""
+
+#: options.php:520
+msgid "Content font and for others. Default is \"Lato\"."
+msgstr ""
+
+#: options.php:652
+msgid "Header font size Options"
+msgstr ""
+
+#: options.php:653
+msgid "Site title font size. Default is 36px."
+msgstr ""
+
+#: options.php:661
+msgid "Site tagline font size. Default is 16px."
+msgstr ""
+
+#: options.php:669
+msgid "Primary menu. Default is 16px."
+msgstr ""
+
+#: options.php:677
+msgid "Primary sub menu. Default is 13px."
+msgstr ""
+
+#: options.php:685
+msgid "Header small menu. Default is 12px."
+msgstr ""
+
+#: options.php:693
+msgid "Header top bar small info text. Default is 12px."
+msgstr ""
+
+#: options.php:701
+msgid "Slider font size Options"
+msgstr ""
+
+#: options.php:702
+msgid "Slider title. Default is 26px."
+msgstr ""
+
+#: options.php:710
+msgid "Slider content. Default is 16px."
+msgstr ""
+
+#: options.php:718
+msgid "Slider button text. Default is 20px."
+msgstr ""
+
+#: options.php:726
+msgid "Header Bar font size options"
+msgstr ""
+
+#: options.php:727
+msgid ""
+"Breadcrumb Text. Default is 12px. Breadcrumb appears in header bar right "
+"side after installing Breadcrumb NavXT"
+msgstr ""
+
+#: options.php:735
+msgid ""
+"Page title and post title in single view. Default is 22px. Appears in header "
+"bar just before content."
+msgstr ""
+
+#: options.php:743
+msgid "Title and widget related font size options"
+msgstr ""
+
+#: options.php:744
+msgid ""
+"Title in posts listing or blog/category view. Also for posts titles in TG:"
+"Featured Posts widget. Default is 26px."
+msgstr ""
+
+#: options.php:752
+msgid "Widget title font size. Default is 22px."
+msgstr ""
+
+#: options.php:760
+msgid ""
+"Main title of TG: Featured Posts widget and TG: Our Clients widget. Default "
+"is 30px."
+msgstr ""
+
+#: options.php:768
+msgid "Title of TG: Call To Action widget. Default is 24px."
+msgstr ""
+
+#: options.php:776
+msgid "Button text of TG: Call To Action widget. Default is 22px."
+msgstr ""
+
+#: options.php:784
+msgid "Comment Title. Default is 26px."
+msgstr ""
+
+#: options.php:792
+msgid "Content font size options"
+msgstr ""
+
+#: options.php:793
+msgid ""
+"Content font size, also applies to other text like in search fields, post "
+"comment button etc. Default is 16px."
+msgstr ""
+
+#: options.php:801
+msgid ""
+"Post meta font size. Default is 14px. Post meta includes date, author, "
+"category etc. information of post."
+msgstr ""
+
+#: options.php:809
+msgid ""
+"Read more link font size. Default is 14px. Read more in post meta, TG: "
+"Featured Single Page widget and TG: Services widget."
+msgstr ""
+
+#: options.php:817
+msgid "Footer font size options"
+msgstr ""
+
+#: options.php:818
+msgid "Footer widget title font size. Default is 22px."
+msgstr ""
+
+#: options.php:826
+msgid "Footer widget content font size. Default is 14px."
+msgstr ""
+
+#: options.php:834
+msgid "Footer copyright text font size. Default is 12px."
+msgstr ""
+
+#: options.php:842
+msgid "Footer small menu. Default is 12px."
+msgstr ""
+
+#: options.php:853
+msgid "Color"
+msgstr ""
+
+#: options.php:859
+msgid "Header Color Options"
+msgstr ""
+
+#: options.php:860
+msgid ""
+"Site Title and tagline color option can be set from Appearance -> Header"
+msgstr ""
+
+#: options.php:864
+msgid "Primary menu text color. Default is #444444."
+msgstr ""
+
+#: options.php:870
+msgid "Primary sub menu text color. Default is #666666."
+msgstr ""
+
+#: options.php:876
+msgid "Header background color. Default is #FFFFFF."
+msgstr ""
+
+#: options.php:882
+msgid "Header top bar background color. Default is #F8F8F8."
+msgstr ""
+
+#: options.php:888
+msgid "Header top bar info text color. Default is #555555."
+msgstr ""
+
+#: options.php:894
+msgid "Header small menu text color. Default is #666666."
+msgstr ""
+
+#: options.php:900
+msgid "Slider part color options"
+msgstr ""
+
+#: options.php:901
+msgid "Slider title. Default is #FFFFFF."
+msgstr ""
+
+#: options.php:907
+msgid "Slider content. Default is #FFFFFF."
+msgstr ""
+
+#: options.php:913
+msgid "Slider button text color. Default is #FFFFFF."
+msgstr ""
+
+#: options.php:919
+msgid "Slider button background color. Default is #0FBE7C."
+msgstr ""
+
+#: options.php:925
+msgid "General Color Options"
+msgstr ""
+
+#: options.php:926
+msgid ""
+"Border lines. These lines are used in various parts as seperator and as "
+"borders. Default is #EAEAEA."
+msgstr ""
+
+#: options.php:932
+msgid "Header Bar Color Options"
+msgstr ""
+
+#: options.php:933
+msgid "Page title and post title in single view. Default is #222222"
+msgstr ""
+
+#: options.php:939
+msgid "Breadcrumb text color. Default is #666666."
+msgstr ""
+
+#: options.php:945
+msgid "Header bar background color. Default is #FFFFFF."
+msgstr ""
+
+#: options.php:951
+msgid "Content part color options"
+msgstr ""
+
+#: options.php:952
+msgid ""
+"Title in posts listing or blog/category view. Also for posts titles in TG:"
+"Featured Posts widget. Default is #222222."
+msgstr ""
+
+#: options.php:958
+msgid "Widget title color. Default is #FFFFFF."
+msgstr ""
+
+#: options.php:964
+msgid "Content text color. Default is #666666."
+msgstr ""
+
+#: options.php:970
+msgid ""
+"Post meta icon color. Post meta includes date, author, category etc. "
+"information of post. Default is #999999."
+msgstr ""
+
+#: options.php:976
+msgid ""
+"Post meta text color. Post meta includes date, author, category etc. "
+"information of post. Default is #999999."
+msgstr ""
+
+#: options.php:982
+msgid "Read more text in post meta. Default is #FFFFFF."
+msgstr ""
+
+#: options.php:988
+msgid "Read more text background color. Default is #0FBE7C."
+msgstr ""
+
+#: options.php:994
+msgid ""
+"Read more link color for TG: Featured Single Page widget and TG: Services "
+"widget. Default is #0FBE7C."
+msgstr ""
+
+#: options.php:1000
+msgid "Content part background color. Default is #FFFFFF."
+msgstr ""
+
+#: options.php:1006
+msgid "Comment part color options"
+msgstr ""
+
+#: options.php:1007
+msgid "Comment part background color. Default is #FFFFFF."
+msgstr ""
+
+#: options.php:1013
+msgid "Comment title color. Default is #222222."
+msgstr ""
+
+#: options.php:1019
+msgid "Comment meta color. Like name, date etc. Default is #999999."
+msgstr ""
+
+#: options.php:1025
+msgid ""
+"Single comment background color. Like name, date etc. Default is #F8F8F8."
+msgstr ""
+
+#: options.php:1031
+msgid ""
+"Commenting field background color. Like name, date etc. Default is #F8F8F8."
+msgstr ""
+
+#: options.php:1037
+msgid "TG:Call to action widget color options"
+msgstr ""
+
+#: options.php:1038
+msgid "Title color. Default is #222222."
+msgstr ""
+
+#: options.php:1044
+msgid "Background color. Default is #F8F8F8."
+msgstr ""
+
+#: options.php:1050
+msgid "Button text color. Default is #FFFFFF."
+msgstr ""
+
+#: options.php:1056
+msgid "Button background color. Default is #0FBE7C."
+msgstr ""
+
+#: options.php:1062
+msgid "Footer part color options"
+msgstr ""
+
+#: options.php:1063
+msgid "Widget title color. Default is #D5D5D5."
+msgstr ""
+
+#: options.php:1069
+msgid "Widget content color. Default is #999999."
+msgstr ""
+
+#: options.php:1075
+msgid "Widget background color. Default is #333333."
+msgstr ""
+
+#: options.php:1081
+msgid "Footer copyright text color. Default is #666666."
+msgstr ""
+
+#: options.php:1087
+msgid "Footer small menu text color. Default is #666666."
+msgstr ""
+
+#: options.php:1093
+msgid "Footer copyright part background color. Default is #F8F8F8."
+msgstr ""
+
+#: options.php:1111
+msgid "Spacious Pro"
+msgstr ""
+
+#: options.php:1113
+msgid "Support Forum"
+msgstr ""
+
+#: options.php:1114
+msgid "Documentation"
+msgstr ""
+
+#: options.php:1115
+msgid "View Demo"
+msgstr ""
+
+#: searchform.php:12 searchform.php:15
+msgid "Search"
+msgstr ""
+
+#: sidebar-left.php:36 sidebar.php:36
+msgid "Meta"
+msgstr ""

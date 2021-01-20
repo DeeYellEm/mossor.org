@@ -1,0 +1,144 @@
+function randomValue(low, total) {
+    with (Math) {
+      return low + floor(random() * total);
+    }
+}
+
+image = new Array;
+comment = new Array;
+
+// Note: First digit is starting index, Second digit is *total* num of items, not high index
+// So, If three items, randomValue(0,3), returns 0,1,2 randomized
+index = randomValue(0, 120); 
+
+// Create arrays to contain all the values for image locations
+image[0]="FrontPagePics/Images/titlepic_20030101.jpg"; comment[0] = "Almond pate from Nice, France - [2003/01/10]";
+image[1]="FrontPagePics/Images/titlepic_20030609.jpg"; comment[1] = "Eagle Creek - [2003/06/09]";
+image[2]="FrontPagePics/Images/titlepic_20030629.jpg"; comment[2] = "Garden Detail - [2003/06/29]";
+image[3]="FrontPagePics/Images/titlepic_20030819_1.jpg"; comment[3] = "Cape Kiwanda - [2003/08/10]";
+image[4]="FrontPagePics/Images/titlepic_20030819_2.jpg"; comment[4] = "Cape Kiwanda - [2003/08/10]";
+image[5]="FrontPagePics/Images/titlepic_20031001.jpg"; comment[5] = "Garden Detail - [2003/06/29]";
+image[6]="FrontPagePics/Images/titlepic_20031001_2.jpg"; comment[6] = "Spiral Staircase (Arc de Triumphe) - [2002/12/01]";
+image[7]="FrontPagePics/Images/titlepic_20031001_3.jpg"; comment[7] = "Scream (Arc de Triumphe) - [2002/12/01]";
+image[8]="FrontPagePics/Images/titlepic_20031007_1.jpg"; comment[8] = "Cathedral at Notre Dame - [2002/12/01]";
+image[9]="FrontPagePics/Images/titlepic_20031007_2.jpg"; comment[9] = "Pigeons! - [2002/12/01]";
+image[10]="FrontPagePics/Images/titlepic_20031007_3.jpg"; comment[10] = "Stained Glass in Notre Dame - [2002/12/01]";
+image[11]="FrontPagePics/Images/titlepic_20031207_1.jpg"; comment[11] = "Ice Detail 1 - [2002/11/01]";
+image[12]="FrontPagePics/Images/titlepic_20031207_2.jpg"; comment[12] = "Ice Detail 2 - [2002/11/01]";
+image[13]="FrontPagePics/Images/titlepic_20031207_3.jpg"; comment[13] = "Ice Detail 3 - [2002/11/01]";
+image[14]="FrontPagePics/Images/titlepic_20031207_4.jpg"; comment[14] = "Ice Detail 4 - [2002/11/01]";
+image[15]="FrontPagePics/Images/titlepic_20031207_5.jpg"; comment[15] = "Ice Detail 5 - [2002/11/01]";
+image[16]="FrontPagePics/Images/DSCN0299.jpg"; comment[16] = "Cabo Sunset [12/30/04]";
+image[17]="FrontPagePics/Images/DSCN0678.jpg"; comment[17] = "Indian Beach [04/10/04]";
+image[18]="FrontPagePics/Images/DSCN0680.jpg"; comment[18] = "Indian Beach lighthouse [04/10/04] ";
+image[19]="FrontPagePics/Images/DSCN0904.jpg"; comment[19] = "Day lilies, Summer 2004 [06/14/04]";
+image[20]="FrontPagePics/Images/DSCN0995.jpg"; comment[20] = "Ponytail Falls, Oneanta Trail Hike [06/18/04]";
+image[21]="FrontPagePics/Images/DSCN1025.jpg"; comment[21] = "Day lily, Summer 2004 [07/09/04]";
+image[22]="FrontPagePics/Images/DSCN1031.jpg"; comment[22] = "Water lily, Summer 2004 [07/09/04]";
+image[23]="FrontPagePics/Images/DSCN1032.jpg"; comment[23] = "Day lily, Summer 2004 [07/09/04]";
+image[24]="FrontPagePics/Images/DSCN1036.jpg"; comment[24] = "Tree rose thing, Summer 2004 [07/09/04]";
+image[25]="FrontPagePics/Images/DSCN1043.jpg"; comment[25] = "Water lily, Summer 2004 [07/09/04]";
+image[26]="FrontPagePics/Images/DSCN0456.jpg"; comment[26] = "Liberty Bell, Philadelphia [03/27/04]";
+image[27]="FrontPagePics/Images/DSCN0483.jpg"; comment[27] = "Manhatten from the Staten Island Ferry [03/27/04]";
+image[28]="FrontPagePics/Images/DSCN0486.jpg"; comment[28] = "Ground Zero, NYC [03/27/04]";
+image[29]="FrontPagePics/Images/DSCN0508.jpg"; comment[29] = "St. Patrick's Cathedral, NYC [03/27/04]";
+image[30]="FrontPagePics/Images/DSCN0560.jpg"; comment[30] = "The Museum of Natural History, NYC [03/27/04]";
+image[31]="FrontPagePics/Images/DSCN0608.jpg"; comment[31] = "The Statue of Liberty, NYC [03/27/04]";
+image[32]="FrontPagePics/Images/DSCN0086.jpg"; comment[32] = "Arlington Cemetary [03/26/05]";
+image[33]="FrontPagePics/Images/DSCN0111.jpg"; comment[33] = "Very vertical hair [03/26/05]";
+image[34]="FrontPagePics/Images/DSCN0126.jpg"; comment[34] = "The Iwo Jima Memorial [03/26/05]";
+image[35]="FrontPagePics/Images/DSCN0162.jpg"; comment[35] = "George Washington as Greek Statue [03/26/05]";
+image[36]="FrontPagePics/Images/DSCN0224.jpg"; comment[36] = "Washington Monument [03/26/05]";
+image[37]="FrontPagePics/Images/DSCN0227.jpg"; comment[37] = "The Capitol Building at Sunset [03/26/05]";
+image[38]="FrontPagePics/Images/DSCN0271.jpg"; comment[38] = "Lincoln Memorial [03/26/05]";
+image[39]="FrontPagePics/Images/DSCN0298.jpg"; comment[39] = "The Capitor Building on a Spring Day [03/26/05]";
+image[40]="FrontPagePics/Images/DSCN0397.jpg"; comment[40] = "Orchids in D.C. [03/26/05]";
+image[41]="FrontPagePics/Images/DSCN0487.jpg"; comment[41] = "National Art Museum [03/26/05]";
+image[42]="FrontPagePics/Images/MeAndAbe.jpg"; comment[42] = "It would be so worth it... [03/26/05]";
+image[43]="FrontPagePics/Images/DSCN0601.jpg"; comment[43] = "Lily pad lily [05/30/05]";
+image[44]="FrontPagePics/Images/DSCN0604.jpg"; comment[44] = "Hungry Fish [05/30/05]";
+image[45]="FrontPagePics/Images/DSCN0605.jpg"; comment[45] = "Flowers and dragonfly [05/30/05]";
+image[46]="FrontPagePics/Images/DSCN0632.jpg"; comment[46] = "Lily pad detail [05/30/05]";
+image[47]="FrontPagePics/Images/DSCN0595.jpg"; comment[47] = "Day lily [05/30/05]";
+image[48]="FrontPagePics/Images/DSCN0847.jpg"; comment[48] = "Canadian Stream and Mountains [August 2005]";
+image[49]="FrontPagePics/Images/DSCN0851.jpg"; comment[49] = "Canadian Beauty [August 2005]";
+image[50]="FrontPagePics/Images/DSCN0895.jpg"; comment[50] = "The Basin in Cave and Basin [August 2005]";
+image[51]="FrontPagePics/Images/DSCN0972.jpg"; comment[51] = "Lake Moraine [August 2005]";
+image[52]="FrontPagePics/Images/DSCN0980.jpg"; comment[52] = "Lake Moraine Canoes [August 2005]";
+image[53]="FrontPagePics/Images/DSCN0999.jpg"; comment[53] = "Lake Moraine [August 2005]";
+image[54]="FrontPagePics/Images/DSCN1038.jpg"; comment[54] = "Lake Louise from the glaciers [August 2005]";
+image[55]="FrontPagePics/Images/DSCN1048.jpg"; comment[55] = "The Lodge at Lake Louise [August 2005]";
+image[56]="FrontPagePics/Images/DSCN1062.jpg"; comment[56] = "Canadian Mountains [August 2005]";
+image[57]="FrontPagePics/Images/DSCN1080.jpg"; comment[57] = "Peyto Lake [August 2005]";
+image[58]="FrontPagePics/Images/DSCN1083.jpg"; comment[58] = "Peyto Lake from above [August 2005]";
+image[59]="FrontPagePics/Images/DSCN1434.jpg"; comment[59] = "Glass lamps outside an elevator [February 2006] ";
+image[60]="FrontPagePics/Images/DSCN1491.jpg"; comment[60] = "The Underground [February 2006] ";
+image[61]="FrontPagePics/Images/DSCN1534.jpg"; comment[61] = "Clock at the Museum D'Orsee [February 2006] ";
+image[62]="FrontPagePics/Images/DSCN1548.jpg"; comment[62] = "The Eiffel Tower at night [February 2006] ";
+image[63]="FrontPagePics/Images/DSCN1611.jpg"; comment[63] = "A sculpture in the Louvre [February 2006] ";
+image[64]="FrontPagePics/Images/DSCN1662.jpg"; comment[64] = "This is not a photo opportunity [February 2006] ";
+image[65]="FrontPagePics/Images/DSCN1856.jpg"; comment[65] = "Sunshine Nighttime [June 2006]";
+image[66]="FrontPagePics/Images/100_0185.jpg"; comment[66] = "Pansies and whatnot [June 2006]";
+image[67]="FrontPagePics/Images/DSCN1983.jpg"; comment[67] = "Fireworks [July 2006]";
+image[68]="FrontPagePics/Images/100_0288.jpg"; comment[68] = "Sunset in Puerta Vallarta [July 2006]";
+image[69]="FrontPagePics/Images/100_0536.jpg"; comment[69] = "Lily Detail [Summer 2006]";
+image[70]="FrontPagePics/Images/100_0877.jpg"; comment[70] = "Oregon Coast [Summer 2006]";
+image[71]="FrontPagePics/Images/100_0947.jpg"; comment[71] = "Cat in the Grass, Florida [2007]";
+image[72]="FrontPagePics/Images/100_0983.jpg"; comment[72] = "Key West, Florida [2007]";
+image[73]="FrontPagePics/Images/100_1927.jpg"; comment[73] = "Stained Glass - Greek Church, Florida [2007]";
+image[74]="FrontPagePics/Images/100_2444.jpg"; comment[74] = "The Return of the Horse [2007]";
+image[75]="FrontPagePics/Images/DSCN2412.jpg"; comment[75] = "Ice on the Pond [Winter 2007]";
+image[76]="FrontPagePics/Images/DSCN2425.jpg"; comment[76] = "Ice on the Pond [Winter 2007]";
+image[77]="FrontPagePics/Images/DSCN2535.jpg"; comment[77] = "Beach at Fort Stevens [2007]";
+image[78]="FrontPagePics/Images/DSCN2541.jpg"; comment[78] = "Beach at Fort Stevens [2007]";
+image[79]="FrontPagePics/Images/DSCN2542.jpg"; comment[79] = "Beach at Fort Stevens [2007]";
+image[80]="FrontPagePics/Images/DSCN2548.jpg"; comment[80] = "Beach at Fort Stevens [2007]";
+image[81]="FrontPagePics/Images/DSCN2548_2.jpg"; comment[81] = "Beach at Fort Stevens [2007]";
+image[82]="FrontPagePics/Images/DSCN2552.jpg"; comment[82] = "Beach at Fort Stevens [2007]";
+image[83]="FrontPagePics/Images/DSCN2554.jpg"; comment[83] = "Beach at Fort Stevens [2007]";
+image[84]="FrontPagePics/Images/DSCN2559.jpg"; comment[84] = "Beach at Fort Stevens [2007]";
+image[85]="FrontPagePics/Images/DSCN2562.jpg"; comment[85] = "Beach at Fort Stevens [2007]";
+image[86]="FrontPagePics/Images/DSCN2580.jpg"; comment[86] = "Beach at Fort Stevens [2007]";
+image[87]="FrontPagePics/Images/DSCN2708.jpg"; comment[87] = "Train at Fort Stevens [2007]";
+image[88]="FrontPagePics/Images/DSCN3066.jpg"; comment[88] = "Mushroom Cap [2007]";
+image[89]="FrontPagePics/Images/DSCN3199.jpg"; comment[89] = "Golden Gate Bridge [April 2008]";
+image[90]="FrontPagePics/Images/DSCN0112.jpg"; comment[90] = "Home grown berries! [June 2009]";
+image[91]="FrontPagePics/Images/DSCN0073.jpg"; comment[91] = "Cannon Beach from Ecola State Park [May 2009]";
+image[92]="FrontPagePics/Images/DSCN0007.jpg"; comment[92] = "Spring Color [April 2009]";
+image[93]="FrontPagePics/Images/100_0039.jpg"; comment[93] = "Tulip Festival [April 2009]";
+image[94]="FrontPagePics/Images/100_0037.jpg"; comment[94] = "Tulip Festival [April 2009]";
+image[95]="FrontPagePics/Images/IMG_0051.jpg"; comment[95] = "Maui! [December 2008]";
+image[96]="FrontPagePics/Images/100_3629.jpg"; comment[96] = "Maui Color [December 2008]";
+image [97]="FrontPagePics/Images/100_6437.JPG"; comment[97] = "Seattle Skyline after dark [2010]";
+image [98]="FrontPagePics/Images/100_6513.JPG"; comment[98] = "We had really nice Michael Buble Tickets [2010]";
+image [99]="FrontPagePics/Images/DSCN0140.JPG"; comment[99] = "Yellowstone [2011]";
+image [100]="FrontPagePics/Images/DSCN0210.JPG"; comment[100] = "Maui [2012]";
+image [101]="FrontPagePics/Images/DSCN0507.JPG"; comment[101] = "Hoover Dam [2011]";
+image [102]="FrontPagePics/Images/DSCN1070.JPG"; comment[102] = "San Francisco Hotel [2013]";
+image [103]="FrontPagePics/Images/DSCN1533.JPG"; comment[103] = "Portland Japanese Gardens [2012]";
+image [104]="FrontPagePics/Images/DSC_0440.JPG"; comment[104] = "Yellowstone [2011]";
+image [105]="FrontPagePics/Images/DSC_0530.JPG"; comment[105] = "Yellowstone [2011]";
+image [106]="FrontPagePics/Images/DSC_0598.JPG"; comment[106] = "Yellowstone [2011]";
+image [107]="FrontPagePics/Images/DSC_0687.jpg"; comment[107] = "Yellowstone [2011]";
+image [108]="FrontPagePics/Images/DSC_0919.JPG"; comment[108] = "Yellowstone [2011]";
+image [109]="FrontPagePics/Images/DSC_3147.JPG"; comment[109] = "San Francisco, Alcatraz [2013]";
+image [110]="FrontPagePics/Images/DSC_3405.jpg"; comment[110] = "Victoria, BC, Butchart Gardens [2013]";
+image [111]="FrontPagePics/Images/IMG_0110.JPG"; comment[111] = "Maui [2010]";
+image [112]="FrontPagePics/Images/IMG_0135.JPG"; comment[112] = "Maui [2010]";
+image [113]="FrontPagePics/Images/IMG_0137.JPG"; comment[113] = "Maui [2010]";
+image [114]="FrontPagePics/Images/IMG_0259.JPG"; comment[114] = "Vegas [2011]";
+image [115]="FrontPagePics/Images/IMG_1332.JPG"; comment[115] = "Sayulita, Mexico [2013]";
+image [116]="FrontPagePics/Images/IMG_1482.jpg"; comment[116] = "Victoria BC has better crosswalks than we do [2014]";
+image [117]="FrontPagePics/Images/IMG_2247.jpg"; comment[117] = "Puerta Vallarta, Mexico - Just flyin' my Batman [2013]";
+image [118]="FrontPagePics/Images/P1000132.JPG"; comment[118] = "Chinaman's Hat, Oahu, HI [2014]";
+image [119]="FrontPagePics/Images/P1000184.JPG"; comment[119] = "View from Diamondhead, Oahu, HI [2014]";
+
+// Write the image tag with a random array element
+//document.write("<img src=\"" + image[index] + "\"width=\"500\" height=\"500\" border=\"0\">");
+//document.write("<center><img src=\"" + image[index] + "\"></center>");
+document.write("<a href=\"index.html\"><img src=\"" + image[index] + "\"></a>");
+document.write("<center>" + comment[index] + "</center>");
+// Debug
+//document.write("<br>Index is "+index);
+//document.write("<br>Pic is "+image[index]);
+//document.write("<br>Comment is "+comment[index]);

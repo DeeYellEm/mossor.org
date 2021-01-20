@@ -1,0 +1,150 @@
+<!DOCTYPE HTML PUBLIC "-//SoftQuad Software//DTD HoTMetaL PRO 6.0::19990601::extensions to HTML 4.0//EN" "hmpro6.dtd">
+<HTML> 
+  <HEAD> 
+	 <TITLE>Tutorial: Displacement Map Footsteps</TITLE> 
+  </HEAD> 
+  <BODY BACKGROUND="../../../Images/bg_1.jpg" TEXT="E5CB94" LINK="#33ff66"
+	ALINK="#FF0000" VLINK="#6699FF"> 
+	 <CENTER> 
+		<TABLE> 
+		  <TR> 
+			 <TD ALIGN="CENTER"><IMG SRC="Images/Title.jpg" BORDER="0" WIDTH="600"
+				HEIGHT="119"></TD> 
+		  </TR> 
+		  <TR> 
+			 <TD ALIGN="CENTER"> 
+				<H1>Tutorial: Footsteps in the Snow</H1>
+				<H1>using Animated Displacement Decals</H1> 
+				<H2>September 28th, 2002</H2><HR></TD> 
+		  </TR> 
+		  <TR> 
+			 <TD ALIGN="LEFT"> 
+				<TABLE BORDER="1"> 
+				  <TR> 
+					 <TD BGCOLOR="#000000">Tutorial</TD> 
+					 <TD>Footsteps in the Snow</TD> 
+				  </TR> 
+				  <TR> 
+					 <TD BGCOLOR="#000000">Version</TD> 
+					 <TD>1.0</TD> 
+				  </TR> 
+				  <TR> 
+					 <TD BGCOLOR="#000000">Last Updated</TD> 
+					 <TD>September 28th, 2002</TD> 
+				  </TR> 
+				  <TR> 
+					 <TD BGCOLOR="#000000">Animation Master Version </TD> 
+					 <TD>v9.5</TD> 
+				  </TR> 
+				  <TR> 
+					 <TD BGCOLOR="#000000">Tutorial Level</TD> 
+					 <TD>Intermediate</TD> 
+				  </TR> 
+				</TABLE> 
+				<P>The question came up on the list recently about how to make
+				  footsteps in the snow or dirt. This tutorial will show one way to do that.</P> 
+				<P>The basic solution uses a decal set to type displacement that
+				  animate the amount of displacement over time.</P> 
+				<H2>Step 1: decal</H2> 
+				<P>Simply create a left foot and right foot image that represent
+				  the footsteps we're going to create. Create it with an alpha map so we only
+				  affect the mesh where the footstep will be. Something like this:</P> 
+				<H3>The footstep decal</H3>
+				<IMG SRC="Images/decal.jpg" BORDER="0" WIDTH="600" HEIGHT="127">
+				<P>This is sort of a left foot, so create another flipped for the
+				  right foot. Blur the decal and alpha so there is a decent transition from the
+				  128/128/128 background gray (which means don't displace) to the 0/0/0 black
+				  representing the bottom of the footprint.</P>
+				<H2>Step 2: Decal the WalkPath </H2>
+				<H3>The WalkPlane</H3>
+				<P>Since a displacement map requires more mesh density than what's
+				  required for bump maps, I created a 2cm square grid using the GridWizard for
+				  the length of my path.</P>
+				<P>Then, I decaled separate steps for each step that we will
+				  animate. You might think to just move the stamp and re-stamp for each step. If
+				  you do that, you can't animate the displacement separately, which is what we
+				  want. Initially, let's leave the the decal type as color so we can see where we
+				  stamp. The result should look something like this:</P><IMG
+				SRC="Images/WalkPlane.jpg" BORDER="0" WIDTH="600" HEIGHT="413"> 
+				<H2>Step 3: Animate those feet! </H2>
+				<P>Now comes the fun. Throw the WalkPlane in to a chor along with
+				  your model that will make the footprints and, if you want, a some background
+				  for some joy.</P>
+				<P>This is when you start to animate. In my case I positioned my
+				  model at time 0 with the feet on the first footsteps. Next I advanced to
+				  00:00:15 and moved the right foot to the next step. Then 00:01:00 and place the
+				  left foot. And so on. Then go back in and add some intermediate keyframes so
+				  the feet don't slide horribly. But, when you play this, we still have no
+				  footsteps. Let's make those now.</P><IMG SRC="Images/chorshot.jpg" BORDER="0"
+				WIDTH="600" HEIGHT="414">
+				<H2>Step 4: Animating the Displacement</H2> 
+				<P>Now, back at time 0, let's change the Decal type for each step
+				  to Displacement and the amount to 0. Down in the choreography, open up the
+				  WalkPlane and the folder for the decals. Each decal should show a type of
+				  displacement and an amount of 0 at time 0. Change the percentage of
+				  Displacement for the first two decals/steps to 8% (your milesage may vary).
+				  This is because our feet are already placed at time 0.</P>
+				<P>Now advance to time 00:00:14. This is just before our right foot
+				  hits the snow as it moves forward. Keyframe this at 0% again or our
+				  displacement will ramp between 0% at time 0 to 8% which we'll do next. This
+				  will cause the step to start before we want. Now advance to 00:00:18 or so.
+				  Change the displacement to 8%. This will cause the decal to displace from time
+				  00:00:15 to 00:00:18, which is what we want.</P>
+				<P>Now, move on to time 00:01:00 and keyframe the first left step
+				  to 0 and 8% at time 00:01:03. Repeat for each subsequent step, animating the
+				  displacement to correspond to the footfalls we keyframed earlier with our
+				  feet.</P>
+				<P>Just continue this until done and you should be good to
+				  go.</P><IMG SRC="Images/chordisp.jpg" BORDER="0" WIDTH="600" HEIGHT="457">
+				<H2>A Choreography View</H2><A HREF="Images/ChorViewLg.jpg"><IMG
+				SRC="Images/ChorViewSm.jpg" BORDER="0" WIDTH="600" HEIGHT="301"></A>
+				<P>This is just a view of the choreography while keyframing so you
+				  know what to expect to see. Click on it to see a larger version (105k).</P>
+				<H2>Some Notes:</H2> 
+				<P>A couple things of note. I changed the interpolation method to
+				  linear for these keyframes so that the transitions would take place smoothly.
+				  Without this it defaults to spline which causes some overshoot that I don't
+				  want for this effect. The second thing to note is that displacement mapping
+				  takes lots more time to render than a simple bump. But for an effect like this,
+				  bump mapping really doesn't cut it. Plus don't forget the additional mesh
+				  density mentioned earlier.</P> 
+				<H2>Conclusions</H2> 
+				<P>That's it. One way to make footsteps in the snow, dirt or sand.
+				  Lots of things to fix in the animation but it should get the idea across. Feel
+				  free to download and pick apart the project. You'll find links to the animation
+				  and the project below. Please enjoy and as always, feedback good and bad is
+				  appreciated. Thanks, Darrin Mossor</P> 
+				<H2>Downloads</H2> 
+				<TABLE BORDER="1"> 
+				  <TR> 
+					 <TH>Files</TH> 
+					 <TH>Description</TH> 
+				  </TR> 
+				  <TR> 
+					 <TD><A HREF="Download/Footsteps.mov">Example Animation</A></TD>
+					 
+					 <TD>QT - 2.5s, 1.3M</TD> 
+				  </TR>
+				  <TR>
+					 <TD><A HREF="Download/Footsteps.avi">Example Animation</A></TD>
+					 <TD>AVI - 2.5s, 600M</TD>
+				  </TR> 
+				  <TR> 
+					 <TD><A HREF="Download/Footsteps.zip">Footsteps.zip</A></TD> 
+					 <TD>Project file (357k w/ two TGA images<BR>k)</TD> 
+				  </TR> 
+				</TABLE> </TD> 
+		  </TR> 
+		  <TR> 
+			 <TD ALIGN="CENTER"> <HR> 
+				<P> <A HREF="http://www.mossor.org">Mossor.org Home</A> |
+				  <A HREF="../../index.html">Desktop Studios Home</A></P> </TD> 
+		  </TR> 
+		  <TR> 
+			 <TD ALIGN="RIGHT"> 
+				<P><FONT SIZE="-1">This document maintained by
+				  <A HREF="mailto:webmaster@mossor.org">webmaster@mossor.org</A>.<BR>Material
+				  Copyright &copy; 1999-2002 Darrin Mossor</FONT></P></TD> 
+		  </TR> 
+		</TABLE></CENTER> </BODY>
+</HTML>

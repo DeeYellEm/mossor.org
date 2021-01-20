@@ -1,0 +1,15 @@
+<ul>
+<li><!--#echo var="HTTP_REFERER" -->
+<li><!--#echo var="REMOTE_ADDR" -->
+<li><!--#echo var="REQUEST_URI" -->
+<li><!--#echo var="HTTP_HOST" -->
+<li><!--#echo var="HTTP_USER_AGENT" -->
+<li><!--#echo var="REDIRECT_STATUS" -->
+</ul>
+<p>
+Whoops!  Looks like things went sideways. 
+Please be patient while we untangle this mess.
+</p>
+<!-- 
+                                                                                                                                                                                                                                                                                                                         
+--> 

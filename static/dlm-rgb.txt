@@ -1,0 +1,547 @@
+#FFFAFA|255|250|250|Snow
+#F8F8FF|248|248|255|Ghost white
+#F8F8FF|248|248|255|Ghostwhite
+#F5F5F5|245|245|245|White smoke
+#F5F5F5|245|245|245|Whitesmoke
+#DCDCDC|220|220|220|Gainsboro
+#FFFAF0|255|250|240|Floral white
+#FFFAF0|255|250|240|Floralwhite
+#FDF5E6|253|245|230|Old lace
+#FDF5E6|253|245|230|Oldlace
+#FAF0E6|250|240|230|Linen
+#FAEBD7|250|235|215|Antique white
+#FAEBD7|250|235|215|Antiquewhite
+#FFEFD5|255|239|213|Papaya whip
+#FFEFD5|255|239|213|Papayawhip
+#FFEBCD|255|235|205|Blanched almond
+#FFEBCD|255|235|205|Blanchedalmond
+#FFE4C4|255|228|196|Bisque
+#FFDAB9|255|218|185|Peach puff
+#FFDAB9|255|218|185|Peachpuff
+#FFDEAD|255|222|173|Navajo white
+#FFDEAD|255|222|173|Navajowhite
+#FFE4B5|255|228|181|Moccasin
+#FFF8DC|255|248|220|Cornsilk
+#FFFFF0|255|255|240|Ivory
+#FFFACD|255|250|205|Lemon chiffon
+#FFFACD|255|250|205|Lemonchiffon
+#FFF5EE|255|245|238|Seashell
+#F0FFF0|240|255|240|Honeydew
+#F5FFFA|245|255|250|Mint cream
+#F5FFFA|245|255|250|Mintcream
+#F0FFFF|240|255|255|Azure
+#F0F8FF|240|248|255|Alice blue
+#F0F8FF|240|248|255|Aliceblue
+#E6E6FA|230|230|250|Lavender
+#FFF0F5|255|240|245|Lavender blush
+#FFF0F5|255|240|245|Lavenderblush
+#FFE4E1|255|228|225|Misty rose
+#FFE4E1|255|228|225|Mistyrose
+#FFFFFF|255|255|255|White
+#000000|  0|  0|  0|Black
+#2F4F4F| 47| 79| 79|Dark slate gray
+#2F4F4F| 47| 79| 79|Darkslategray
+#2F4F4F| 47| 79| 79|Dark slate grey
+#2F4F4F| 47| 79| 79|Darkslategrey
+#696969|105|105|105|Dim gray
+#696969|105|105|105|Dimgray
+#696969|105|105|105|Dim grey
+#696969|105|105|105|Dimgrey
+#708090|112|128|144|Slate gray
+#708090|112|128|144|Slategray
+#708090|112|128|144|Slate grey
+#708090|112|128|144|Slategrey
+#778899|119|136|153|Light slate gray
+#778899|119|136|153|Lightslategray
+#778899|119|136|153|Light slate grey
+#778899|119|136|153|Lightslategrey
+#BEBEBE|190|190|190|Gray
+#BEBEBE|190|190|190|Grey
+#D3D3D3|211|211|211|Light grey
+#D3D3D3|211|211|211|Lightgrey
+#D3D3D3|211|211|211|Light gray
+#D3D3D3|211|211|211|Lightgray
+#191970| 25| 25|112|Midnight blue
+#191970| 25| 25|112|Midnightblue
+#000080|  0|  0|128|Navy
+#000080|  0|  0|128|Navy blue
+#000080|  0|  0|128|Navyblue
+#6495ED|100|149|237|Cornflower blue
+#6495ED|100|149|237|Cornflowerblue
+#483D8B| 72| 61|139|Dark slate blue
+#483D8B| 72| 61|139|Darkslateblue
+#6A5ACD|106| 90|205|Slate blue
+#6A5ACD|106| 90|205|Slateblue
+#7B68EE|123|104|238|Medium slate blue
+#7B68EE|123|104|238|Mediumslateblue
+#8470FF|132|112|255|Light slate blue
+#8470FF|132|112|255|Lightslateblue
+#0000CD|  0|  0|205|Medium blue
+#0000CD|  0|  0|205|Mediumblue
+#4169E1| 65|105|225|Royal blue
+#4169E1| 65|105|225|Royalblue
+#0000FF|  0|  0|255|Blue
+#1E90FF| 30|144|255|Dodger blue
+#1E90FF| 30|144|255|Dodgerblue
+#00BFFF|  0|191|255|Deep sky blue
+#00BFFF|  0|191|255|Deepskyblue
+#87CEEB|135|206|235|Sky blue
+#87CEEB|135|206|235|Skyblue
+#87CEFA|135|206|250|Light sky blue
+#87CEFA|135|206|250|Lightskyblue
+#4682B4| 70|130|180|Steel blue
+#4682B4| 70|130|180|Steelblue
+#B0C4DE|176|196|222|Light steel blue
+#B0C4DE|176|196|222|Lightsteelblue
+#ADD8E6|173|216|230|Light blue
+#ADD8E6|173|216|230|Lightblue
+#B0E0E6|176|224|230|Powder blue
+#B0E0E6|176|224|230|Powderblue
+#AFEEEE|175|238|238|Pale turquoise
+#AFEEEE|175|238|238|Paleturquoise
+#00CED1|  0|206|209|Dark turquoise
+#00CED1|  0|206|209|Darkturquoise
+#48D1CC| 72|209|204|Medium turquoise
+#48D1CC| 72|209|204|Mediumturquoise
+#40E0D0| 64|224|208|Turquoise
+#00FFFF|  0|255|255|Cyan
+#E0FFFF|224|255|255|Light cyan
+#E0FFFF|224|255|255|Lightcyan
+#5F9EA0| 95|158|160|Cadet blue
+#5F9EA0| 95|158|160|Cadetblue
+#66CDAA|102|205|170|Medium aquamarine
+#66CDAA|102|205|170|Mediumaquamarine
+#7FFFD4|127|255|212|Aquamarine
+#006400|  0|100|  0|Dark green
+#006400|  0|100|  0|Darkgreen
+#556B2F| 85|107| 47|Dark olive green
+#556B2F| 85|107| 47|Darkolivegreen
+#8FBC8F|143|188|143|Dark sea green
+#8FBC8F|143|188|143|Darkseagreen
+#2E8B57| 46|139| 87|Sea green
+#2E8B57| 46|139| 87|Seagreen
+#3CB371| 60|179|113|Medium sea green
+#3CB371| 60|179|113|Mediumseagreen
+#20B2AA| 32|178|170|Light sea green
+#20B2AA| 32|178|170|Lightseagreen
+#98FB98|152|251|152|Pale green
+#98FB98|152|251|152|Palegreen
+#00FF7F|  0|255|127|Spring green
+#00FF7F|  0|255|127|Springgreen
+#7CFC00|124|252|  0|Lawn green
+#7CFC00|124|252|  0|Lawngreen
+#00FF00|  0|255|  0|Green
+#7FFF00|127|255|  0|Chartreuse
+#00FA9A|  0|250|154|Medium spring green
+#00FA9A|  0|250|154|Mediumspringgreen
+#ADFF2F|173|255| 47|Green yellow
+#ADFF2F|173|255| 47|Greenyellow
+#32CD32| 50|205| 50|Lime green
+#32CD32| 50|205| 50|Limegreen
+#9ACD32|154|205| 50|Yellow green
+#9ACD32|154|205| 50|Yellowgreen
+#228B22| 34|139| 34|Forest green
+#228B22| 34|139| 34|Forestgreen
+#6B8E23|107|142| 35|Olive drab
+#6B8E23|107|142| 35|Olivedrab
+#BDB76B|189|183|107|Dark khaki
+#BDB76B|189|183|107|Darkkhaki
+#F0E68C|240|230|140|Khaki
+#EEE8AA|238|232|170|Pale goldenrod
+#EEE8AA|238|232|170|Palegoldenrod
+#FAFAD2|250|250|210|Light goldenrod yellow
+#FAFAD2|250|250|210|Lightgoldenrodyellow
+#FFFFE0|255|255|224|Light yellow
+#FFFFE0|255|255|224|Lightyellow
+#FFFF00|255|255|  0|Yellow
+#FFD700|255|215|  0|    gold
+#EEDD82|238|221|130|Light goldenrod
+#EEDD82|238|221|130|Lightgoldenrod
+#DAA520|218|165| 32|Goldenrod
+#B8860B|184|134| 11|Dark goldenrod
+#B8860B|184|134| 11|Darkgoldenrod
+#BC8F8F|188|143|143|Rosy brown
+#BC8F8F|188|143|143|Rosybrown
+#CD5C5C|205| 92| 92|Indian red
+#CD5C5C|205| 92| 92|Indianred
+#8B4513|139| 69| 19|Saddle brown
+#8B4513|139| 69| 19|Saddlebrown
+#A0522D|160| 82| 45|Sienna
+#CD853F|205|133| 63|Peru
+#DEB887|222|184|135|Burlywood
+#F5F5DC|245|245|220|Beige
+#F5DEB3|245|222|179|Wheat
+#F4A460|244|164| 96|Sandy brown
+#F4A460|244|164| 96|Sandybrown
+#D2B48C|210|180|140|Tan
+#D2691E|210|105| 30|Chocolate
+#B22222|178| 34| 34|Firebrick
+#A52A2A|165| 42| 42|Brown
+#E9967A|233|150|122|Dark salmon
+#E9967A|233|150|122|Darksalmon
+#FA8072|250|128|114|Salmon
+#FFA07A|255|160|122|Light salmon
+#FFA07A|255|160|122|Lightsalmon
+#FFA500|255|165|  0|Orange
+#FF8C00|255|140|  0|Dark orange
+#FF8C00|255|140|  0|Darkorange
+#FF7F50|255|127| 80|Coral
+#F08080|240|128|128|Light coral
+#F08080|240|128|128|Lightcoral
+#FF6347|255| 99| 71|Tomato
+#FF4500|255| 69|  0|Orange red
+#FF4500|255| 69|  0|Orangered
+#FF0000|255|  0|  0|Red
+#FF69B4|255|105|180|Hot pink
+#FF69B4|255|105|180|Hotpink
+#FF1493|255| 20|147|Deep pink
+#FF1493|255| 20|147|Deeppink
+#FFC0CB|255|192|203|Pink
+#FFB6C1|255|182|193|Light pink
+#FFB6C1|255|182|193|Lightpink
+#DB7093|219|112|147|Pale violet red
+#DB7093|219|112|147|Palevioletred
+#B03060|176| 48| 96|Maroon
+#C71585|199| 21|133|Medium violet red
+#C71585|199| 21|133|Mediumvioletred
+#D02090|208| 32|144|Violet red
+#D02090|208| 32|144|Violetred
+#FF00FF|255|  0|255|Magenta
+#EE82EE|238|130|238|Violet
+#DDA0DD|221|160|221|Plum
+#DA70D6|218|112|214|Orchid
+#BA55D3|186| 85|211|Medium orchid
+#BA55D3|186| 85|211|Mediumorchid
+#9932CC|153| 50|204|Dark orchid
+#9932CC|153| 50|204|Darkorchid
+#9400D3|148|  0|211|Dark violet
+#9400D3|148|  0|211|Darkviolet
+#8A2BE2|138| 43|226|Blue violet
+#8A2BE2|138| 43|226|Blueviolet
+#A020F0|160| 32|240|Purple
+#9370DB|147|112|219|Medium purple
+#9370DB|147|112|219|Mediumpurple
+#D8BFD8|216|191|216|Thistle
+#FFFAFA|255|250|250|Snow1
+#EEE9E9|238|233|233|Snow2
+#CDC9C9|205|201|201|Snow3
+#8B8989|139|137|137|Snow4
+#FFF5EE|255|245|238|Seashell1
+#EEE5DE|238|229|222|Seashell2
+#CDC5BF|205|197|191|Seashell3
+#8B8682|139|134|130|Seashell4
+#FFEFDB|255|239|219|Antiquewhite1
+#EEDFCC|238|223|204|Antiquewhite2
+#CDC0B0|205|192|176|Antiquewhite3
+#8B8378|139|131|120|Antiquewhite4
+#FFE4C4|255|228|196|Bisque1
+#EED5B7|238|213|183|Bisque2
+#CDB79E|205|183|158|Bisque3
+#8B7D6B|139|125|107|Bisque4
+#FFDAB9|255|218|185|Peachpuff1
+#EECBAD|238|203|173|Peachpuff2
+#CDAF95|205|175|149|Peachpuff3
+#8B7765|139|119|101|Peachpuff4
+#FFDEAD|255|222|173|Navajowhite1
+#EECFA1|238|207|161|Navajowhite2
+#CDB38B|205|179|139|Navajowhite3
+#8B795E|139|121| 94|Navajowhite4
+#FFFACD|255|250|205|Lemonchiffon1
+#EEE9BF|238|233|191|Lemonchiffon2
+#CDC9A5|205|201|165|Lemonchiffon3
+#8B8970|139|137|112|Lemonchiffon4
+#FFF8DC|255|248|220|Cornsilk1
+#EEE8CD|238|232|205|Cornsilk2
+#CDC8B1|205|200|177|Cornsilk3
+#8B8878|139|136|120|Cornsilk4
+#FFFFF0|255|255|240|Ivory1
+#EEEEE0|238|238|224|Ivory2
+#CDCDC1|205|205|193|Ivory3
+#8B8B83|139|139|131|Ivory4
+#F0FFF0|240|255|240|Honeydew1
+#E0EEE0|224|238|224|Honeydew2
+#C1CDC1|193|205|193|Honeydew3
+#838B83|131|139|131|Honeydew4
+#FFF0F5|255|240|245|Lavenderblush1
+#EEE0E5|238|224|229|Lavenderblush2
+#CDC1C5|205|193|197|Lavenderblush3
+#8B8386|139|131|134|Lavenderblush4
+#FFE4E1|255|228|225|Mistyrose1
+#EED5D2|238|213|210|Mistyrose2
+#CDB7B5|205|183|181|Mistyrose3
+#8B7D7B|139|125|123|Mistyrose4
+#F0FFFF|240|255|255|Azure1
+#E0EEEE|224|238|238|Azure2
+#C1CDCD|193|205|205|Azure3
+#838B8B|131|139|139|Azure4
+#836FFF|131|111|255|Slateblue1
+#7A67EE|122|103|238|Slateblue2
+#6959CD|105| 89|205|Slateblue3
+#473C8B| 71| 60|139|Slateblue4
+#4876FF| 72|118|255|Royalblue1
+#436EEE| 67|110|238|Royalblue2
+#3A5FCD| 58| 95|205|Royalblue3
+#27408B| 39| 64|139|Royalblue4
+#0000FF|  0|  0|255|Blue1
+#0000EE|  0|  0|238|Blue2
+#0000CD|  0|  0|205|Blue3
+#00008B|  0|  0|139|Blue4
+#1E90FF| 30|144|255|Dodgerblue1
+#1C86EE| 28|134|238|Dodgerblue2
+#1874CD| 24|116|205|Dodgerblue3
+#104E8B| 16| 78|139|Dodgerblue4
+#63B8FF| 99|184|255|Steelblue1
+#5CACEE| 92|172|238|Steelblue2
+#4F94CD| 79|148|205|Steelblue3
+#36648B| 54|100|139|Steelblue4
+#00BFFF|  0|191|255|Deepskyblue1
+#00B2EE|  0|178|238|Deepskyblue2
+#009ACD|  0|154|205|Deepskyblue3
+#00688B|  0|104|139|Deepskyblue4
+#87CEFF|135|206|255|Skyblue1
+#7EC0EE|126|192|238|Skyblue2
+#6CA6CD|108|166|205|Skyblue3
+#4A708B| 74|112|139|Skyblue4
+#B0E2FF|176|226|255|Lightskyblue1
+#A4D3EE|164|211|238|Lightskyblue2
+#8DB6CD|141|182|205|Lightskyblue3
+#607B8B| 96|123|139|Lightskyblue4
+#C6E2FF|198|226|255|Slategray1
+#B9D3EE|185|211|238|Slategray2
+#9FB6CD|159|182|205|Slategray3
+#6C7B8B|108|123|139|Slategray4
+#CAE1FF|202|225|255|Lightsteelblue1
+#BCD2EE|188|210|238|Lightsteelblue2
+#A2B5CD|162|181|205|Lightsteelblue3
+#6E7B8B|110|123|139|Lightsteelblue4
+#BFEFFF|191|239|255|Lightblue1
+#B2DFEE|178|223|238|Lightblue2
+#9AC0CD|154|192|205|Lightblue3
+#68838B|104|131|139|Lightblue4
+#E0FFFF|224|255|255|Lightcyan1
+#D1EEEE|209|238|238|Lightcyan2
+#B4CDCD|180|205|205|Lightcyan3
+#7A8B8B|122|139|139|Lightcyan4
+#BBFFFF|187|255|255|Paleturquoise1
+#AEEEEE|174|238|238|Paleturquoise2
+#96CDCD|150|205|205|Paleturquoise3
+#668B8B|102|139|139|Paleturquoise4
+#98F5FF|152|245|255|Cadetblue1
+#8EE5EE|142|229|238|Cadetblue2
+#7AC5CD|122|197|205|Cadetblue3
+#53868B| 83|134|139|Cadetblue4
+#00F5FF|  0|245|255|Turquoise1
+#00E5EE|  0|229|238|Turquoise2
+#00C5CD|  0|197|205|Turquoise3
+#00868B|  0|134|139|Turquoise4
+#00FFFF|  0|255|255|Cyan1
+#00EEEE|  0|238|238|Cyan2
+#00CDCD|  0|205|205|Cyan3
+#008B8B|  0|139|139|Cyan4
+#97FFFF|151|255|255|Darkslategray1
+#8DEEEE|141|238|238|Darkslategray2
+#79CDCD|121|205|205|Darkslategray3
+#528B8B| 82|139|139|Darkslategray4
+#7FFFD4|127|255|212|Aquamarine1
+#76EEC6|118|238|198|Aquamarine2
+#66CDAA|102|205|170|Aquamarine3
+#458B74| 69|139|116|Aquamarine4
+#C1FFC1|193|255|193|Darkseagreen1
+#B4EEB4|180|238|180|Darkseagreen2
+#9BCD9B|155|205|155|Darkseagreen3
+#698B69|105|139|105|Darkseagreen4
+#54FF9F| 84|255|159|Seagreen1
+#4EEE94| 78|238|148|Seagreen2
+#43CD80| 67|205|128|Seagreen3
+#2E8B57| 46|139| 87|Seagreen4
+#9AFF9A|154|255|154|Palegreen1
+#90EE90|144|238|144|Palegreen2
+#7CCD7C|124|205|124|Palegreen3
+#548B54| 84|139| 84|Palegreen4
+#00FF7F|  0|255|127|Springgreen1
+#00EE76|  0|238|118|Springgreen2
+#00CD66|  0|205|102|Springgreen3
+#008B45|  0|139| 69|Springgreen4
+#00FF00|  0|255|  0|Green1
+#00EE00|  0|238|  0|Green2
+#00CD00|  0|205|  0|Green3
+#008B00|  0|139|  0|Green4
+#7FFF00|127|255|  0|Chartreuse1
+#76EE00|118|238|  0|Chartreuse2
+#66CD00|102|205|  0|Chartreuse3
+#458B00| 69|139|  0|Chartreuse4
+#C0FF3E|192|255| 62|Olivedrab1
+#B3EE3A|179|238| 58|Olivedrab2
+#9ACD32|154|205| 50|Olivedrab3
+#698B22|105|139| 34|Olivedrab4
+#CAFF70|202|255|112|Darkolivegreen1
+#BCEE68|188|238|104|Darkolivegreen2
+#A2CD5A|162|205| 90|Darkolivegreen3
+#6E8B3D|110|139| 61|Darkolivegreen4
+#FFF68F|255|246|143|Khaki1
+#EEE685|238|230|133|Khaki2
+#CDC673|205|198|115|Khaki3
+#8B864E|139|134| 78|Khaki4
+#FFEC8B|255|236|139|Lightgoldenrod1
+#EEDC82|238|220|130|Lightgoldenrod2
+#CDBE70|205|190|112|Lightgoldenrod3
+#8B814C|139|129| 76|Lightgoldenrod4
+#FFFFE0|255|255|224|Lightyellow1
+#EEEED1|238|238|209|Lightyellow2
+#CDCDB4|205|205|180|Lightyellow3
+#8B8B7A|139|139|122|Lightyellow4
+#FFFF00|255|255|  0|Yellow1
+#EEEE00|238|238|  0|Yellow2
+#CDCD00|205|205|  0|Yellow3
+#8B8B00|139|139|  0|Yellow4
+#FFD700|255|215|  0|Gold1
+#EEC900|238|201|  0|Gold2
+#CDAD00|205|173|  0|Gold3
+#8B7500|139|117|  0|Gold4
+#FFC125|255|193| 37|Goldenrod1
+#EEB422|238|180| 34|Goldenrod2
+#CD9B1D|205|155| 29|Goldenrod3
+#8B6914|139|105| 20|Goldenrod4
+#FFB90F|255|185| 15|Darkgoldenrod1
+#EEAD0E|238|173| 14|Darkgoldenrod2
+#CD950C|205|149| 12|Darkgoldenrod3
+#8B6508|139|101|  8|Darkgoldenrod4
+#FFC1C1|255|193|193|Rosybrown1
+#EEB4B4|238|180|180|Rosybrown2
+#CD9B9B|205|155|155|Rosybrown3
+#8B6969|139|105|105|Rosybrown4
+#FF6A6A|255|106|106|Indianred1
+#EE6363|238| 99| 99|Indianred2
+#CD5555|205| 85| 85|Indianred3
+#8B3A3A|139| 58| 58|Indianred4
+#FF8247|255|130| 71|Sienna1
+#EE7942|238|121| 66|Sienna2
+#CD6839|205|104| 57|Sienna3
+#8B4726|139| 71| 38|Sienna4
+#FFD39B|255|211|155|Burlywood1
+#EEC591|238|197|145|Burlywood2
+#CDAA7D|205|170|125|Burlywood3
+#8B7355|139|115| 85|Burlywood4
+#FFE7BA|255|231|186|Wheat1
+#EED8AE|238|216|174|Wheat2
+#CDBA96|205|186|150|Wheat3
+#8B7E66|139|126|102|Wheat4
+#FFA54F|255|165| 79|Tan1
+#EE9A49|238|154| 73|Tan2
+#CD853F|205|133| 63|Tan3
+#8B5A2B|139| 90| 43|Tan4
+#FF7F24|255|127| 36|Chocolate1
+#EE7621|238|118| 33|Chocolate2
+#CD661D|205|102| 29|Chocolate3
+#8B4513|139| 69| 19|Chocolate4
+#FF3030|255| 48| 48|Firebrick1
+#EE2C2C|238| 44| 44|Firebrick2
+#CD2626|205| 38| 38|Firebrick3
+#8B1A1A|139| 26| 26|Firebrick4
+#FF4040|255| 64| 64|Brown1
+#EE3B3B|238| 59| 59|Brown2
+#CD3333|205| 51| 51|Brown3
+#8B2323|139| 35| 35|Brown4
+#FF8C69|255|140|105|Salmon1
+#EE8262|238|130| 98|Salmon2
+#CD7054|205|112| 84|Salmon3
+#8B4C39|139| 76| 57|Salmon4
+#FFA07A|255|160|122|Lightsalmon1
+#EE9572|238|149|114|Lightsalmon2
+#CD8162|205|129| 98|Lightsalmon3
+#8B5742|139| 87| 66|Lightsalmon4
+#FFA500|255|165|  0|Orange1
+#EE9A00|238|154|  0|Orange2
+#CD8500|205|133|  0|Orange3
+#8B5A00|139| 90|  0|Orange4
+#FF7F00|255|127|  0|Darkorange1
+#EE7600|238|118|  0|Darkorange2
+#CD6600|205|102|  0|Darkorange3
+#8B4500|139| 69|  0|Darkorange4
+#FF7256|255|114| 86|Coral1
+#EE6A50|238|106| 80|Coral2
+#CD5B45|205| 91| 69|Coral3
+#8B3E2F|139| 62| 47|Coral4
+#FF6347|255| 99| 71|Tomato1
+#EE5C42|238| 92| 66|Tomato2
+#CD4F39|205| 79| 57|Tomato3
+#8B3626|139| 54| 38|Tomato4
+#FF4500|255| 69|  0|Orangered1
+#EE4000|238| 64|  0|Orangered2
+#CD3700|205| 55|  0|Orangered3
+#8B2500|139| 37|  0|Orangered4
+#FF0000|255|  0|  0|Red1
+#EE0000|238|  0|  0|Red2
+#CD0000|205|  0|  0|Red3
+#8B0000|139|  0|  0|Red4
+#FF1493|255| 20|147|Deeppink1
+#EE1289|238| 18|137|Deeppink2
+#CD1076|205| 16|118|Deeppink3
+#8B0A50|139| 10| 80|Deeppink4
+#FF6EB4|255|110|180|Hotpink1
+#EE6AA7|238|106|167|Hotpink2
+#CD6090|205| 96|144|Hotpink3
+#8B3A62|139| 58| 98|Hotpink4
+#FFB5C5|255|181|197|Pink1
+#EEA9B8|238|169|184|Pink2
+#CD919E|205|145|158|Pink3
+#8B636C|139| 99|108|Pink4
+#FFAEB9|255|174|185|Lightpink1
+#EEA2AD|238|162|173|Lightpink2
+#CD8C95|205|140|149|Lightpink3
+#8B5F65|139| 95|101|Lightpink4
+#FF82AB|255|130|171|Palevioletred1
+#EE799F|238|121|159|Palevioletred2
+#CD6889|205|104|137|Palevioletred3
+#8B475D|139| 71| 93|Palevioletred4
+#FF34B3|255| 52|179|Maroon1
+#EE30A7|238| 48|167|Maroon2
+#CD2990|205| 41|144|Maroon3
+#8B1C62|139| 28| 98|Maroon4
+#FF3E96|255| 62|150|Violetred1
+#EE3A8C|238| 58|140|Violetred2
+#CD3278|205| 50|120|Violetred3
+#8B2252|139| 34| 82|Violetred4
+#FF00FF|255|  0|255|Magenta1
+#EE00EE|238|  0|238|Magenta2
+#CD00CD|205|  0|205|Magenta3
+#8B008B|139|  0|139|Magenta4
+#FF83FA|255|131|250|Orchid1
+#EE7AE9|238|122|233|Orchid2
+#CD69C9|205|105|201|Orchid3
+#8B4789|139| 71|137|Orchid4
+#FFBBFF|255|187|255|Plum1
+#EEAEEE|238|174|238|Plum2
+#CD96CD|205|150|205|Plum3
+#8B668B|139|102|139|Plum4
+#E066FF|224|102|255|Mediumorchid1
+#D15FEE|209| 95|238|Mediumorchid2
+#B452CD|180| 82|205|Mediumorchid3
+#7A378B|122| 55|139|Mediumorchid4
+#BF3EFF|191| 62|255|Darkorchid1
+#B23AEE|178| 58|238|Darkorchid2
+#9A32CD|154| 50|205|Darkorchid3
+#68228B|104| 34|139|Darkorchid4
+#9B30FF|155| 48|255|Purple1
+#912CEE|145| 44|238|Purple2
+#7D26CD|125| 38|205|Purple3
+#551A8B| 85| 26|139|Purple4
+#AB82FF|171|130|255|Mediumpurple1
+#9F79EE|159|121|238|Mediumpurple2
+#8968CD|137|104|205|Mediumpurple3
+#5D478B| 93| 71|139|Mediumpurple4
+#FFE1FF|255|225|255|Thistle1
+#EED2EE|238|210|238|Thistle2
+#CDB5CD|205|181|205|Thistle3
+#8B7B8B|139|123|139|Thistle4
+#000000|  0|  0|  0|Gray0
+#1A1A1A| 26| 26| 26|Gray10
+#333333| 51| 51| 51|Gray20
+#4D4D4D| 77| 77| 77|Gray30
+#666666|102|102|102|Gray40
+#7F7F7F|127|127|127|Gray50
+#999999|153|153|153|Gray60
+#B3B3B3|179|179|179|Gray70
+#CCCCCC|204|204|204|Gray80
+#E5E5E5|229|229|229|Gray90
+#FFFFFF|255|255|255|Gray100

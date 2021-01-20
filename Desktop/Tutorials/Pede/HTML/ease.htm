@@ -1,0 +1,89 @@
+<!DOCTYPE HTML PUBLIC "-//SoftQuad Software//DTD HoTMetaL PRO 6.0::19990601::extensions to HTML 4.0//EN" "hmpro6.dtd">
+<HTML> 
+  <HEAD> 
+	 <TITLE>Desktop Studios</TITLE> 
+  </HEAD> 
+  <BODY BACKGROUND="../../../../Images/bg_1.jpg" TEXT="E5CB94" LINK="#33ff66"
+	ALINK="#FF0000" VLINK="#6699FF"> 
+	 <CENTER> 
+		<TABLE> 
+		  <TR> 
+			 <TD ALIGN="CENTER"><IMG SRC="../Images/EaseTitle.jpg" BORDER="0"
+				WIDTH="400" HEIGHT="153"></TD> 
+		  </TR> 
+		  <TR> 
+			 <TD ALIGN="CENTER"> 
+				<H1>9: Ease and Action Offset</H1> <HR></TD> 
+		  </TR> 
+		  <TR> 
+			 <TD ALIGN="LEFT" WIDTH="80%"> 
+				<P>This is where the meat of the tutorial is. Everything else led
+				  up to this magical moment, so on to the fun!</P> 
+				<P>So, what do we need to get our centipede to walk the path as we
+				  want him to? First, we need each of the segments to follow the one in front of
+				  it. Second, we need each of the Actions applied to the segments to lag the one
+				  in front by a bit. That should get us very close to what we want.</P> 
+				<P>Go to Basic3Pt-&gt;Shortcut to
+				  HeadSeg-&gt;Choreography-&gt;Shortcut to HeadSeg and pick Constrain to Path "1"
+				  (Path1). You should see the image below. Note the Ease Channel, the slider at
+				  the bottom of the Properties. The Ease channel is a way to say how far, on a
+				  given frame, you want the model to be along the path that was specified. With
+				  the Current Frame Field at zero, advance the Ease channel slider so that the
+				  HeadSeg moves far enough along the path to leave room for the other
+				  BodySegs.</P> 
+				<P>For each of the other BodySegs, do the same thing, advancing the
+				  Ease at time 0 so that each BodySeg is right behind the one in front of it. The
+				  slider only seems to advance by 1.0% at a time, but if you need the accuracy,
+				  just edit the Ease value. In my case, at time zero, the HeadSeg started at 11%
+				  and the last BodySeg started out at 3.4%. Now, advance the scrub bar to the end
+				  of our animation (11:09 or whatever). Now repeat the previous step for the
+				  HeadSeg down through the BodySeg(5), advancing the Ease channel for each (not
+				  the Ease channel in the Walk action!) so that at the end of the animation, the
+				  HeadSeg is at the end of the Path1 and each BodySeg finishes right behind the
+				  one in front of it.</P><IMG SRC="../Images/EaseChor.jpg" WIDTH="524"
+				HEIGHT="443" BORDER="0"> 
+				<P>If you scrub through now, you'll notice that we now have a
+				  complete centipede, with a HeadSeg and several BodySegs (you could have more,
+				  but this gives us the idea). The remaining problem is with the legs. They don't
+				  follow just behind the one in front. How do we get this effect? </P> 
+				<P>Pretty easily, actually. With the Current Frame Field back at
+				  zero, go in to each of the BodySegs and edit the Properties for the Shortcut to
+				  Walk. The HeadSeg Starts at 00:00:00. Make the first BodySeg Start at 00:00:02
+				  or two frames later. For each of the following segments, make it Start two
+				  frames later than the one in front of it. One upshot of this: for the first few
+				  frames of the animation, the legs of each following BodySeg will take a few
+				  frames to get moving. So, I'd recommend having the Path1 start off camera for
+				  long enough for the legs to get moving. In my case, the last BodySeg got moving
+				  after 10 frames.</P> 
+				<P>Now, we could stop there, but let's do one more section to add
+				  some life to this creature for very little extra work. Go to the next section
+				  to add some more Actions that will help liven things up.</P> </TD> 
+		  </TR> 
+		  <TR> 
+			 <TD ALIGN="CENTER" WIDTH="100%"> 
+				<TABLE BORDER="1" CELLPADDING="0" CELLSPACING="0" WIDTH="100%"
+				 BORDERCOLOR="#006060"> 
+				  <TR> 
+					 <TD VALIGN="top" COLSPAN="3" WIDTH="33%" BGCOLOR="#000000"
+					  ALIGN="CENTER"><A HREF="modelreuse.htm">Previous</A></TD> 
+					 <TD VALIGN="top" WIDTH="34%" BGCOLOR="#000000"
+					  ALIGN="CENTER"><A HREF="../index.html">Home</A></TD> 
+					 <TD VALIGN="top" WIDTH="33%" BGCOLOR="#000000"
+					  ALIGN="CENTER"><A HREF="moreactions.htm">Next</A></TD> 
+				  </TR> 
+				</TABLE></TD> 
+		  </TR> 
+		  <TR> 
+			 <TD ALIGN="CENTER"> 
+				<P></P><HR> 
+				<P> <A HREF="http://www.mossor.org">Mossor.org Home</A> |
+				  <A HREF="../../../index.html">Desktop Studios Home</A></P> </TD> 
+		  </TR> 
+		  <TR> 
+			 <TD ALIGN="RIGHT"> 
+				<P><FONT SIZE="-1">This document maintained by
+				  <A HREF="mailto:webmaster@mossor.org">webmaster@mossor.org</A>.<BR>Material
+				  Copyright &copy; 1999-2001 Darrin Mossor</FONT></P></TD> 
+		  </TR> 
+		</TABLE></CENTER> </BODY>
+</HTML>

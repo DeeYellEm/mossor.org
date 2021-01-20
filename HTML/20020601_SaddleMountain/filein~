@@ -1,0 +1,26 @@
+# NOTE: Default filein - Created by Darrin Mossor
+HOME=http://www.mossor.org
+BACKGROUND=d:/backup/images/icons/background.jpg
+TITLE=PhotoAlbum Page
+BGCOLOR=#000000
+TEXT=#e5cb94
+LINK=#33ff66
+ALINK=#ff0000
+COLS=3
+DATE=DATE
+DOCNAME=index.html
+NEXTIMG=d:/backup/Images/Icons/next.gif
+PREVIMG=d:/backup/Images/Icons/prev.gif
+HOMEIMG=d:/backup/Images/Icons/home.gif
+DOSIZE=1
+TITLEPIC=
+AtTheTop.jpg|Comment
+flowers1.jpg|Comment
+flowers2.jpg|Comment
+LaurelandDarrin.jpg|Comment
+LaurelCookieJar.jpg|Comment
+LaurelEyes.jpg|Comment
+LaurelFlowers.jpg|Comment
+Panorama1.jpg|Comment
+QueenoftheWorld.jpg|Comment
+Trail.jpg|Comment

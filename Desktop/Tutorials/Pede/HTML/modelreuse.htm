@@ -1,0 +1,72 @@
+<!DOCTYPE HTML PUBLIC "-//SoftQuad Software//DTD HoTMetaL PRO 6.0::19990601::extensions to HTML 4.0//EN" "hmpro6.dtd">
+<HTML> 
+  <HEAD> 
+	 <TITLE>Desktop Studios</TITLE> 
+  </HEAD> 
+  <BODY BACKGROUND="../../../../Images/bg_1.jpg" TEXT="E5CB94" LINK="#33ff66"
+	ALINK="#FF0000" VLINK="#6699FF"> 
+	 <CENTER> 
+		<TABLE> 
+		  <TR> 
+			 <TD ALIGN="CENTER"><IMG SRC="../Images/ReuseTitle.jpg" BORDER="0"
+				WIDTH="400" HEIGHT="318"></TD> 
+		  </TR> 
+		  <TR> 
+			 <TD ALIGN="CENTER"> 
+				<H1>8: Model Reuse</H1> <HR></TD> 
+		  </TR> 
+		  <TR> 
+			 <TD ALIGN="LEFT" WIDTH="80%"> 
+				<P>If all is going well, what we have now is a HeadSeg in the
+				  Choreography with the Walk Action applied to execute using Stride Length over
+				  the some number of frames(seconds). As it executes, the legs and body will go
+				  through the Walk cycle over and over. That's all well and good, but I, at
+				  least, don't see lots of bodiless centipedes wandering around. We need some
+				  body segments. Let's say ... 5!</P> 
+				<P>Drag 5 BodySeg models down on to Basic3Pt. Right now, they're
+				  all just sitting one on top of the other where the X/Y/Z axes cross (the
+				  origin). For each of the five BodySegs, do the following:</P> 
+				<P>Right Click on each, choose New Constraint-&gt;Path and choose
+				  Path1. Drag the Walk action to each BodySeg. Modify it's Crop Range properties
+				  so it Starts on 0 and Ends on 29 and runs from 00:00:00 to whatever the length
+				  was for the HeadSeg in the last section (let's say 11:09 just for the sake of
+				  argument).</P> 
+				<P>If we scrub the length of the animation now, what will we see?
+				  It's definitely not what we hoped for. What we've done is drop one HeadSeg and
+				  five BodySegs on to the same path, with the same starting points and ending
+				  points. So, all six segments are right on top of each other with no distance
+				  between them and all the legs going at the same time. Not right by any measure.
+				  What do we want to see? We want each segment to follow the one in front and we
+				  want the legs to fire from the front to the back with a small delay from the
+				  time the left leg on HeadSeg starts until BodySeg's leg starts, followed by
+				  BodySeg (2), BodySeg(3), etc. How are we going to get that? Well, that should
+				  be ... Ease-y (sorry, it'll make more sense in a minute).</P> </TD> 
+		  </TR> 
+		  <TR> 
+			 <TD ALIGN="CENTER" WIDTH="100%"> 
+				<TABLE BORDER="1" CELLPADDING="0" CELLSPACING="0" WIDTH="100%"
+				 BORDERCOLOR="#006060"> 
+				  <TR> 
+					 <TD VALIGN="top" COLSPAN="3" WIDTH="33%" BGCOLOR="#000000"
+					  ALIGN="CENTER"><A HREF="paths.htm">Previous</A></TD> 
+					 <TD VALIGN="top" WIDTH="34%" BGCOLOR="#000000"
+					  ALIGN="CENTER"><A HREF="../index.html">Home</A></TD> 
+					 <TD VALIGN="top" WIDTH="33%" BGCOLOR="#000000"
+					  ALIGN="CENTER"><A HREF="ease.htm">Next</A></TD> 
+				  </TR> 
+				</TABLE></TD> 
+		  </TR> 
+		  <TR> 
+			 <TD ALIGN="CENTER"> 
+				<P></P><HR> 
+				<P> <A HREF="http://www.mossor.org">Mossor.org Home</A> |
+				  <A HREF="../../../index.html">Desktop Studios Home</A></P> </TD> 
+		  </TR> 
+		  <TR> 
+			 <TD ALIGN="RIGHT"> 
+				<P><FONT SIZE="-1">This document maintained by
+				  <A HREF="mailto:webmaster@mossor.org">webmaster@mossor.org</A>.<BR>Material
+				  Copyright &copy; 1999-2001 Darrin Mossor</FONT></P></TD> 
+		  </TR> 
+		</TABLE></CENTER> </BODY>
+</HTML>

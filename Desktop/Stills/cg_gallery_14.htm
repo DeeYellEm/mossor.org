@@ -1,0 +1,84 @@
+<!DOCTYPE HTML PUBLIC "-//SoftQuad Software//DTD HoTMetaL PRO 6.0::19990601::extensions to HTML 4.0//EN" "hmpro6.dtd">
+<HTML> 
+  <HEAD> 
+	 <TITLE>Still: Gumballs</TITLE> 
+  </HEAD> 
+  <BODY BGCOLOR="#000000" TEXT="E5CB94" LINK="#33ff66" ALINK="#FF0000"
+	VLINK="#6699FF"> 
+	 <H1>The Gumball Machine - Rigid Body Dynamics</H1>
+	 <H2>Date: 10/20/01</H2> 
+	 <P>This image was an exercise to try and use Rigid Body Dynamics to create
+		an image that would be nearly impossible otherwise.</P> 
+	 <P>In this case, the gumball machine contains some 270 individual gumballs.
+		Each has one of six textures. What I did was something like this:</P> 
+	 <OL> 
+		<LI>Create a fairly high density mesh representing the bowl the gumballs
+		  would fall in to - in my case it also had the verticle cylinder in it since the
+		  final model would have it.</LI> 
+		<LI>Create a simple sphere (actually six), group the CPs and apply one of
+		  six textures, where simple materials for color, diff, spec, etc.</LI> 
+		<LI>Create a choreography made up of the bowl, then pull in some number
+		  of gumballs. I used any number from 18 to 48. Apply a Rigid Body Constraint to
+		  each. In the constraint, modify the bounce to about 2% (since all I want to do
+		  is drop them in and let them settle - I'm only going to use the final
+		  frame).Arrange your gumballs above the bowl so that they will drop in to the
+		  open mouth of the bowl. The gumballs should not overlap. The surface of the
+		  bowl should have it's normals pointing inward for Rigid Body Dynamics to work
+		  properly.</LI> 
+		<LI>From the choreography, simulate Rigid Body Physics for some amount of
+		  time (1:30 - about 90 frames or iterations in my case) were needed for the
+		  gumballs to settle.</LI> 
+		<LI>Once settled, save the choreography, then export the choreography as
+		  a model. This should save the group assignments for the gumballs (very
+		  important!). Import this model.</LI> 
+		<LI>Drag the scrub bar back to zero, change the shortcut to the bowl so
+		  it now brings in the model exported in the previous step. We should now have a
+		  bowl with 48 gumballs in it, plus at time zero, *another* set of 48
+		  gumballs.</LI> 
+		<LI>Repeat from step 4 until you have the desired number of gumballs. In
+		  my case I have some 270 gumballs in total. Far more than I would have
+		  reasonably been able to place by hand.</LI> 
+	 </OL> 
+	 <P>Things of note from the exercise:</P> 
+	 <OL> 
+		<LI>I had *real* difficulties when exporting the choreography as a model.
+		  Many times it would inexplicably crash out. I don't know why as it was
+		  random</LI> 
+		<LI>This takes *lots* of time for each set of calculations. But I'd
+		  rather the computer take time than me, trying to place gumballs by hand.</LI> 
+		<LI>It worked best/fastest to use a simple sphere shape. Two earlier
+		  experiements with irregular shapes and groups contained inside the shape (think
+		  glass bubbles with air bubbles inside) took *waaaay* to long to simulate and
+		  would misbehave alot.</LI> 
+		<LI>This was with v8.5p+. Steve indicated that I should try it in v9.0 as
+		  that's where their focus is. Unfortunately, it's still pretty unstable for me,
+		  so that wasn't a great option.</LI> 
+		<LI>I have a nice bump material applied to the gumballs. The problem is,
+		  I can only see it if I hide the CPs for the glass bowl. For some reason, the
+		  sheer existence of the glass globe is keeping the bump from showing up.</LI> 
+	 </OL> 
+	 <P>The body of the machine was modeled in a pretty straight forward
+		fashion. The chrome is a Darktree. The red paint was dinged up with some Grime
+		maps, which were also used for bump, diff and spec. An image was applied to the
+		chrome and body as an Environmental Map. It was applied to the glass as well,
+		but far less opaque (about 20%).</P> 
+	 <P>As always, all feedback, positive and negative is appreciated and
+		welcome <A HREF="mailto:animan@mossor.org">here</A>. Thanks, Darrin Mossor</P> 
+	 <CENTER> 
+		<P><A HREF="Images/gumballs.jpg"><IMG
+		  SRC="Images/gumballs_sm.jpg" BORDER="0" WIDTH="150"
+		  HEIGHT="200"></A></P></CENTER> 
+	 <P> Images created with Hash's <A
+		HREF="http://www.hash.com">Animation:Master</A></P> <HR> 
+	 <CENTER> 
+		<P> <A HREF="../index.html">Home</A> | <A HREF="../index.html">Desktop
+		  Studios</A></P> 
+		<TABLE BGCOLOR="#000000"> 
+		  <TR> 
+			 <TD WIDTH="762" ALIGN="RIGHT"> 
+				<P><FONT SIZE="-1">This document maintained by
+				  <A HREF="mailto:webmaster@mossor.org">webmaster@mossor.org</A>.<BR>Material
+				  Copyright &copy; 1999-2001 Darrin Mossor</FONT></P></TD> 
+		  </TR> 
+		</TABLE></CENTER> </BODY>
+</HTML>

@@ -1,0 +1,105 @@
+<!DOCTYPE HTML PUBLIC "-//SoftQuad Software//DTD HoTMetaL PRO 6.0::19990601::extensions to HTML 4.0//EN" "hmpro6.dtd">
+<HTML> 
+  <HEAD> 
+	 <TITLE>Desktop Studios</TITLE> 
+  </HEAD> 
+  <BODY BACKGROUND="../../../../Images/bg_1.jpg" TEXT="E5CB94" LINK="#33ff66"
+	ALINK="#FF0000" VLINK="#6699FF"> 
+	 <CENTER> 
+		<TABLE> 
+		  <TR> 
+			 <TD ALIGN="CENTER"><IMG SRC="../Images/moreactiontitle.jpg"
+				BORDER="0" WIDTH="400" HEIGHT="281"></TD> 
+		  </TR> 
+		  <TR> 
+			 <TD ALIGN="CENTER"> 
+				<H1>10: More Actions == More Fun!</H1> <HR></TD> 
+		  </TR> 
+		  <TR> 
+			 <TD ALIGN="LEFT" WIDTH="80%"> 
+				<P>We now have a centipede that is willing to walk the line we set
+				  up, moving his legs in a nicely synchronized fashion. That's nice and all, but
+				  he still seems a little ... dead, maybe not very interesting. Let's spice that
+				  boy up!</P> 
+				<P>First, we're going to create a few Actions</P> 
+				<P>Blink: This is a 10 frame action that just involved bringing
+				  down the eyelids quickly and then bringing them back up. I put a small delay
+				  between one coming up and the other just because it looked better, more suited
+				  for the style of the character.</P> 
+				<P>MouthWaggle: This is a 2:20 frame action where I just moved
+				  around the mouth parts (mandibles). I keyframed about 9 times and left the last
+				  keyframe a copy of the first, so it'll cycle cleanly.</P> 
+				<P>Wave: This is a 2:00 (60 frames in my case) wave with the right
+				  leg of the HeadSeg. We're going to overlay this on the walk to have him wave
+				  part way through the walk down the path.</P> 
+				<P>Now a couple constraints. We're going to have the eyes jump from
+				  their default position (more or less looking in front where he's going) to look
+				  at the camera, making eye contact. First scrub through till the centipede is in
+				  a place where the centipede might have just spotted us. To pick a time, say
+				  08:25 in to the anim. Now, let's add some constraints that will take hold as of
+				  this frame.</P> 
+				<P>Left Eye: Constrain the Left Eye to Aim At "Camera1". To do
+				  this, go to Skeletal Mode (F8) in the choreography window. Choose the Left Eye
+				  bone, Right Click and choose New Constraint-&gt;Aim At then pick the Camera1.
+				  This will make the Left Eye always look at the Camera.</P> 
+				<P>Right Eye: Constrain the Right Eye to Orient Like the Left Eye.
+				  Use the same process as the previous. This constraint will make the Right Eye
+				  point wherever the Left Eye points. This will make out centipede always look
+				  like he's looking at Camera1.</P> 
+				<P>Extra Camera: Go back to 00:00:00. Create a new camera in the
+				  Choreography. Constraint it to Orient Like HeadSeg. And another to "Translate
+				  To" HeadSeg. Next hit 'T'ranslate to move it and 'R'otate to rotate it so it
+				  points back at HeadSeg. This is a handy way to have a Camera always looking at
+				  our centipede. It's a handy tool to debug things and make sure they look decent
+				  since we'll always have an easy view on the centipede. By the way, by hitting
+				  '1' on the Keypad, you can toggle between this camera and our main camera to
+				  see what they see. </P> 
+				<P>Time to apply our Actions.</P> 
+				<P>Drop four or so Blink Actions on our HeadSeg. Go to each's
+				  Properties and edit the Start field in the How to Execute box. Leave some time
+				  between them, having the blinks happen as the centipede moves along the path.
+				  In my case, they start at 4:04, 5:15, 6:25 and 8:00. Keep the times between
+				  Blinks somewhat random since you don't want it to look robotic.</P> 
+				<P>Now drop the MouthWaggle Action on the HeadSeg. In this case, we
+				  will have it repeat. Go to the MouthWaggle Properties in the Shortcut to
+				  MouthWaggle under Shortcut to HeadSeg. In the Repeat box, use 4 since our
+				  current choreography runs around 11 seconds and our MouthWaggle action runs
+				  about 2:20. That'll keep his mouth parts moving!</P> 
+				<P>Finally, drop the Wave on the HeadSeg. Edit the Start time to
+				  part way through, say just as he approaches Camera1. In addition to the General
+				  tab on the Properties page, behind that there is another tab called Blend. This
+				  will control how the Wave Action lays overtop the underlying Walk action. In
+				  our case, it'll work just fine to leave it as Replace. You can also choose
+				  Cross Blend (with a % field) and Add.</P> 
+				<P>We're just about at the end now. The next page will talk about
+				  rendering out and creating your animation as well as have links to my final
+				  animations.</P> </TD> 
+		  </TR> 
+		  <TR> 
+			 <TD ALIGN="CENTER" WIDTH="100%"> 
+				<TABLE BORDER="1" CELLPADDING="0" CELLSPACING="0" WIDTH="100%"
+				 BORDERCOLOR="#006060"> 
+				  <TR> 
+					 <TD VALIGN="top" COLSPAN="3" WIDTH="33%" BGCOLOR="#000000"
+					  ALIGN="CENTER"><A HREF="ease.htm">Previous</A></TD> 
+					 <TD VALIGN="top" WIDTH="34%" BGCOLOR="#000000"
+					  ALIGN="CENTER"><A HREF="../index.html">Home</A></TD> 
+					 <TD VALIGN="top" WIDTH="33%" BGCOLOR="#000000"
+					  ALIGN="CENTER"><A HREF="summary.htm">Next</A></TD> 
+				  </TR> 
+				</TABLE></TD> 
+		  </TR> 
+		  <TR> 
+			 <TD ALIGN="CENTER"> 
+				<P></P><HR> 
+				<P> <A HREF="http://www.mossor.org">Mossor.org Home</A> |
+				  <A HREF="../../../index.html">Desktop Studios Home</A></P> </TD> 
+		  </TR> 
+		  <TR> 
+			 <TD ALIGN="RIGHT"> 
+				<P><FONT SIZE="-1">This document maintained by
+				  <A HREF="mailto:webmaster@mossor.org">webmaster@mossor.org</A>.<BR>Material
+				  Copyright &copy; 1999-2001 Darrin Mossor</FONT></P></TD> 
+		  </TR> 
+		</TABLE></CENTER> </BODY>
+</HTML>

@@ -1,0 +1,185 @@
+#! d:/Applications/Perl/bin/perl
+
+# Assumptions:
+# The script will be executed from the CWD
+# Images contains JPG images
+# Thumbs contains thumbnails named the same as Images but they are thumbs
+# HTML is where the per-image HTML will live.  It'll be named the root.html
+#
+# Input List syntax:
+# Lines beginning with '#' are comments
+# HOME=... Where to go when hitting the up arrow from the main page
+# BACKGROUND=... indicates the background image to use
+# TITLE=... Title for the page
+# BGCOLOR=... The Background color
+# TEXT=... The text color
+# LINK=... The link color
+# ALINK=... The alink color
+# VLINK=... The vlink color
+# COLS=... How many columns on the main page
+# (.*).jpg|(.*) is the image name followed by the Caption
+if ($ARGV[0] eq "") {
+    print "ERROR: Need to give me a filename to work on.\n";
+    exit 1;
+} else {
+    $filein = $ARGV[0];
+    print "Note: Parsing $filein\n";
+}
+
+# Defaults
+$cols       = 3;
+$home       = "http://www.mossor.org";
+$background = "";
+$title      = "PhotoAlbum Page";
+$bgcolor    = "#000000";
+$text       = "#e5cb94";
+$link       = "#33ff66";
+$alink      = "#ff0000";
+$vlink      = "#6699ff";
+$titlecell  = "#00bb66";
+$titlecellcolor = "#eeffdd";
+
+# Suck in the picture file
+open(F, "$filein") || die "Unable to open $filein: $!.\n";
+@lines = <F>; chomp @lines;
+close F;
+
+# Parse for option overrides
+foreach $line (@lines) {
+    if ($line =~ /^\#.*$/) {
+        #print "Ignoring [$line]\n"; 
+    }
+    if ($line =~ /^HOME=(.*)$/)       { $homeloc = $1; };
+    if ($line =~ /^BACKGROUND=(.*)$/) { $background = $1; };
+    if ($line =~ /^TITLE=(.*)$/)      { $title = $1; };
+    if ($line =~ /^BGCOLOR=(.*)$/)    { $bgcolor = $1; };
+    if ($line =~ /^TEXT=(.*)$/)       { $text = $1; };
+    if ($line =~ /^LINK=(.*)$/)       { $link = $1; };
+    if ($line =~ /^ALINK=(.*)$/)      { $alink = $1; };
+    if ($line =~ /^COLS=(.*)$/)       { $cols = $1; };
+
+    if ($line =~ /^(.*\.jpg)\|(.*)$/)  { push @piclist, [$1, $2]; };
+}
+
+#print "Note: Home is $homeloc, Background is $background, Columns is $cols.\n";
+
+# Build the main index page
+if (-e "index.html") { unlink("index.html"); };
+open(M, ">index.html") || die "Unable to open index.html: $!.\n";
+
+# First portion of the index page
+print M <<EOF;
+<HTML> 
+  <HEAD> 
+	 <TITLE>$title</TITLE> 
+  </HEAD> 
+  <BODY BGCOLOR="$bgcolor" TEXT="$text" LINK="$link" ALINK="$alink" VLINK="$vlink"> 
+	 <CENTER><H1>$title</H1></CENTER> 
+	 <CENTER> 
+		<TABLE BORDER="1"> 
+		  <TR> 
+              <TD VALIGN="top" COLSPAN="$cols" WIDTH="100%" BGCOLOR="$titlecell"><FONT COLOR="$titlecellcolor" FACE="Arial"><CENTER><STRONG>Date</STRONG>- $title</CENTER></FONT></TD> 
+          </TR>
+EOF
+
+$colindex = 0;
+$picindex = 0;
+while ($picindex <= $#piclist) {
+    $item = @piclist[$picindex];
+    $pic = ${$item}[0]; $cap = ${$item}[1];
+    ($picname, $picext) = split(/\./, $pic);
+    if ($colindex == 0) {
+        print M "          <TR>\n";
+        $colindex++;
+    }
+    if (($colindex > 0) && ($colindex <= $cols)) {
+        print M "            <TD><CENTER><A HREF=\"HTML/$picname.html\"><IMG SRC=\"Thumbs/$pic\" BORDER=\"0\"</A><br><p>$cap</p></CENTER></TD>\n"; 
+        $colindex++;
+        
+        # Generate HTML page for the pic
+        if (-e "HTML/$picname.html") {unlink("HTML/$picname.html");}
+        open(HTML, ">HTML/$picname.html") || warn "Unable to open HTML/$picname.html\n";
+
+#Beginning of Page
+print HTML <<EOF;
+<HTML> 
+  <HEAD> 
+	 <TITLE>$pic</TITLE> 
+  </HEAD> 
+  <BODY BGCOLOR="$bgcolor" TEXT="$text" LINK="$link" ALINK="$alink" VLINK="$vlink"> 
+	 <CENTER> 
+		<TABLE BORDER="1"> 
+EOF
+
+#Middle Portion
+    if ($picindex == 0) {
+        $prevhtml = "../index.html";
+        $nextitem = @piclist[$picindex+1];
+        ($nextpic, $nextext) = split(/\./, ${$nextitem}[0]);
+        $nexthtml = "$nextpic.html";
+    }
+    if (($picindex > 0) && ($picindex < $#piclist)){
+        $nextitem = @piclist[$picindex+1];
+        ($nextpic, $nextext) = split(/\./, ${$nextitem}[0]);
+        $nexthtml = "$nextpic.html";
+        $previtem = @piclist[$picindex-1];
+        ($prevpic, $prevext) = split(/\./, ${$previtem}[0]);
+        $prevhtml = "$prevpic.html";
+    }
+    if ($picindex == $#piclist) {
+        $previtem = @piclist[$picindex-1];
+        ($prevpic, $prevext) = split(/\./, ${$previtem}[0]);
+        $prevhtml = "$prevpic.html";
+        $nexthtml = "../index.html";
+    }
+    
+print HTML "            <tr><TD WIDTH=33%><CENTER><A HREF=\"$prevhtml\"><IMG SRC=\"../Icons/prev.gif\" BORDER=0</A></center></TD><TD WIDTH=34%><center><A HREF=\"../index.html\"><IMG SRC=\"../Icons/home.gif\" BORDER=0</A></center></td><td WIDTH=33%><center><A HREF=\"$nexthtml\"><IMG SRC=\"../Icons/next.gif\" BORDER=0</A></CENTER></TD></tr>";
+print HTML "            <tr><TD COLSPAN=3><CENTER><IMG SRC=\"../Images/$pic\"></CENTER></TD></tr>";
+print HTML "            <tr><TD COLSPAN=3><CENTER>$cap</CENTER></TD></tr>";
+
+#End of Page
+print HTML <<EOF;
+     </TABLE></CENTER>
+     <HR> 
+     <CENTER> 
+        <P><A HREF="http://www.mossor.org">Home</A></P> 
+        <TABLE BGCOLOR="#000000"> 
+          <TR> 
+             <TD ALIGN="RIGHT"> 
+                <P><FONT SIZE="-1">This document maintained by
+                  <A HREF="mailto:webmaster\@mossor.org">webmaster\@mossor.org</A>.<BR>Material
+                  Copyright &copy; 1999-2001 Darrin Mossor</FONT></P></TD> 
+          </TR> 
+        </TABLE></CENTER> </BODY>
+</HTML>
+
+EOF
+        close HTML;
+    }
+    if ($colindex > $cols) {
+        print M "          </TR>\n";
+        $colindex = 0;
+    }
+
+$picindex++;
+} #while
+
+    # End of the index
+    print M <<EOF;
+     </TABLE></CENTER>
+     <HR> 
+     <CENTER> 
+        <P><A HREF="http://www.mossor.org">Home</A></P> 
+        <TABLE BGCOLOR="#000000"> 
+          <TR> 
+             <TD ALIGN="RIGHT"> 
+                <P><FONT SIZE="-1">This document maintained by
+                  <A HREF="mailto:webmaster\@mossor.org">webmaster\@mossor.org</A>.<BR>Material
+                  Copyright &copy; 1999-2001 Darrin Mossor</FONT></P></TD> 
+          </TR> 
+        </TABLE></CENTER> </BODY>
+</HTML>
+EOF
+
+close M;
+

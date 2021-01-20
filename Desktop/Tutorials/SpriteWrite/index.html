@@ -1,0 +1,206 @@
+<!DOCTYPE HTML PUBLIC "-//SoftQuad Software//DTD HoTMetaL PRO 6.0::19990601::extensions to HTML 4.0//EN" "hmpro6.dtd">
+<HTML> 
+  <HEAD> 
+	 <TITLE>Tutorial: Sprite Writing</TITLE> 
+  </HEAD> 
+  <BODY BACKGROUND="../../../Images/bg_1.jpg" TEXT="E5CB94" LINK="#33ff66"
+	ALINK="#FF0000" VLINK="#6699FF"> 
+	 <CENTER> 
+		<TABLE> 
+		  <TR> 
+			 <TD ALIGN="CENTER"><IMG SRC="Images/AnimPath.jpg" BORDER="0"
+				WIDTH="390" HEIGHT="234"></TD> 
+		  </TR> 
+		  <TR> 
+			 <TD ALIGN="CENTER"> 
+				<H1>Tutorial: Animated Writing with Sprites</H1> 
+				<H2>March 5, 2002</H2><HR></TD> 
+		  </TR> 
+		  <TR> 
+			 <TD ALIGN="LEFT"> 
+				<TABLE BORDER="1"> 
+				  <TR> 
+					 <TD BGCOLOR="#000000">Tutorial</TD> 
+					 <TD>Sprite Writing</TD> 
+				  </TR> 
+				  <TR> 
+					 <TD BGCOLOR="#000000">Version</TD> 
+					 <TD>1.0</TD> 
+				  </TR> 
+				  <TR> 
+					 <TD BGCOLOR="#000000">Last Updated</TD> 
+					 <TD>May 5, 2002</TD> 
+				  </TR> 
+				  <TR> 
+					 <TD BGCOLOR="#000000">Animation Master Version </TD> 
+					 <TD>v9.5f</TD> 
+				  </TR> 
+				  <TR> 
+					 <TD BGCOLOR="#000000">Tutorial Level</TD> 
+					 <TD>Intermediate</TD> 
+				  </TR> 
+				</TABLE> 
+				<P>A question that has come up on the list a few times over the
+				  years is: "How do I animate a character writing something, either on paper or
+				  on a, say, a chalkboard? There are ways to do it, but the answers seemed like
+				  they took a lot of work to fake the effect. You could do anything including
+				  animated decals where you erase the writing over a series of frames then
+				  reverse the frames to animated transparency maps. These then meant you had to
+				  animate the pencil or chalk being at the right point for where the writing is.
+				  Ugh. Lots of work.</P>
+				<P>So take a look at the problem solved differently, then come back
+				  and see yet another way to solve the problem. The animation is
+				  <A HREF="Downloads/WritiingSprites.mov">here</A> (QuickTime, On2 Codec, 537k,
+				  10s)</P> 
+				<P>One of the keen new features in v9.5 gives us another option:
+				  Sprites or Sprticles. There's some great examples of very nice explosions and
+				  fires and clouds of smoke. Here's an example of using the effect for a bit of a
+				  different purpose. Let's use sprites to do the writing and let the system do
+				  all (or at least most) of the hard work for us!</P> 
+				<H2>Step 1: The path</H2> 
+				<P>Very simply, we need a path to write on to start with. In my
+				  case I wrote what I wanted to see on a sticky, scanned it in, created a new
+				  model, created a rotoscope of my sticky I scanned and simply created a path
+				  along my writing, applying CPs where I needed them. Below are images of my scan
+				  and the resultant path, after removing the roto. The final image of the three
+				  is the bird's eye view of the path. I elevated several of the CPs to simulate
+				  picking up the pencil as you go from one word to another.</P> 
+				<H3>The Sticky</H3>
+				<IMG SRC="Images/StickyScan.jpg" BORDER="0" WIDTH="300" HEIGHT="307"> 
+				<H3>The Path</H3><IMG SRC="Images/AnimPath.jpg" BORDER="0"
+				WIDTH="390" HEIGHT="234">
+				<H3>The Path in Bird's Eye View</H3><IMG
+				SRC="Images/AnimPathBirdsEye.jpg" BORDER="0" WIDTH="760" HEIGHT="233"> 
+				<H2>Step 2: The Pencil Model</H2> 
+				<P>Now that I have a path to write along, I need something to write
+				  with and it needs to be able to write.</P> 
+				<P>My thanks for Jeremy Fernsler for his model of a pencil modeled
+				  completely with materials. I had to mess with it a bit to get the wood looking
+				  alright since it used a ToonNation plugin not currently available on v9.5. In
+				  the closeup of the tip of the pencil below, I applied the material we'll create
+				  next to the tip of the pencil. Sprite materials didn't want to emit from a ring
+				  of CPs (the *very* tip of the pencil) so I created a group of the very tip and
+				  next ring up so there would be actual patches for the sprites to emit from.</P>
+				<H3>The Pencil Model</H3><IMG SRC="Images/PencilTip.jpg" BORDER="0"
+				WIDTH="210" HEIGHT="336"> 
+				<H2>Step 3: The Material</H2> 
+				<P>To create a Sprite based material, create a new material and
+				  change the main attribute to Sprite Emitter like so:</P><IMG
+				SRC="Images/NewMaterial.jpg" BORDER="0" WIDTH="527" HEIGHT="161">
+				<P>Now we're going to change the attributes of the material. This
+				  part is highly experimental as documentation is still under construction, but
+				  most of the changes we'll make are pretty logical. Here's what we'll end up
+				  with:</P><IMG SRC="Images/MatDetails.jpg" BORDER="0" WIDTH="433" HEIGHT="268"> 
+				<P>Some details:</P>
+				<UL>
+				  <LI>I set the life to something very long so the sprites wouldn't
+					 decay, since we're not after disappearing ink in this project</LI>
+				  <LI>The Rate of Emission is a judgement call based on what looks
+					 good. By the way, we'll animate this rate later to simulate picking up the
+					 pencil, which is the really cool part of this effect..</LI>
+				  <LI>Initial Velocity is 0 since we don't want our lead moving.
+					 Similarly, Drag at 100% seems to keep the lead where we emit it. Finally for
+					 locking down the lead, we set the Gravitational effect to 0% so our lead
+					 doesn't sink through the paper.</LI>
+				  <LI>Opacity at 100%, size to taste based on chor size, angle
+					 random just because</LI>
+				</UL>
+				<P>These are the highlights, but each has features and controls
+				  under the main ones that can help tweak the effect..</P> 
+				<P>Finally (or to begin with) we need to set the image we'll emit.
+				  In my case I made a simple 32x32 bit image with an alpha channel that started
+				  out as the inverted version of the bitmap and then I fiddled with the levels a
+				  bit to add some variation. The image is on the left, the alpha channel on the
+				  right:</P><IMG SRC="Images/LeadImg.jpg" WIDTH="512" HEIGHT="256" BORDER="0">
+				<H2>Step 4: The Choreography</H2> 
+				<P>I used the default choreography, added a simple patch colored
+				  yellow for the sticky and pointed the camera in extreme closeup.</P>
+				<P>Next I added the path which represents the writing, slightly
+				  raised above the sticky model.</P>
+				<P>Next I added the pencil (which has had a bone added with the tip
+				  of the bone at the tip of the pencil and the bone applies to all CPs of the
+				  pencil. In the chor I added a Constrain to Path to the pencil where the target
+				  is the writing path.</P>
+				<P>Next I set the Ease on the constraint to 0% at time 00:00:00. I
+				  timed myself writing the path earlier so I knew I wanted the path to take about
+				  10 seconds. I went to 00:10:00 and set the ease to 100%. The result is the
+				  pencil will now travel the path from start to finish in 10 seconds. (Note: The
+				  first time I tried this, the pencil attached itself to the end of the path. The
+				  splines have some sense of which CPs were added last, which affects which end
+				  is the beginning or end. Adding a CP to the end swapped this and fixed it for
+				  me. Alternatively, I could have started out with the ease at 100% and worked
+				  back to 0% if the sense of direction of the spline was reversed)</P>
+				<P>This will result in a pretty even pace across the entire spline,
+				  which is not what I wanted, so where the pencil would pick up, from "Animation"
+				  to "Master" and "Master" to the flourish at the end, I adjusted the ease on
+				  either end of those moves so they would take place more quickly. I also
+				  modified the tilt of the pencil so it wouldn't stay simply up and down. This is
+				  to taste.</P>
+				<H2>Step 5: The Magic</H2> 
+				<P>It's never really magic, especially once you how it's done and
+				  this isn't all that tricky, I'd just never tried it and it hadn't occurred to
+				  me until now. If you do nothing else, the sprites will emit over the entire
+				  path, as if the pencil were jammed down the entire time, never picking up. This
+				  is unattractive. To address this, I simply animated the Rate of Emission
+				  between 100% and 0% depending on where I was on the path. So starting at time
+				  00:00:00 I set the rate to 0%. A few frames later I set it again to 0% the
+				  immediately to 100% in the next frame. If I didn't do that it would interpolate
+				  between the original 0% and the first 100% ramping up between (there may be an
+				  interpolation setting that would have addressed this but I just winged it and
+				  this approach worked just fine).</P> 
+				<P>Here is what the chor looked like as I animated the Rate of
+				  Emission (just so you know what I saw so you see the same thing):</P><IMG
+				SRC="Images/AnimChor.jpg" BORDER="0" WIDTH="800" HEIGHT="513"> 
+				<P>So while it's not necessarily magic, it is the tedious part of
+				  the exercise. You need to scrub along setting the Rate of Emission between 100
+				  and 0 based on whether we're actually writing or not.. (Note: SAVE OFTEN. I
+				  live this and still got bit a few times when things went south and I had to
+				  redo portions). By the time I got the kinks out of the process, it probably
+				  took 15 minutes to animate the Rate of Emission.</P> 
+				<H2>Some Notes:</H2>
+				<P>One thing I was worred about was that sprites are emitted
+				  perpendicular to the camera, so I was concerned that as the camera angle
+				  changed, it might not look great. The good news is, it seems to work well,
+				  especially in a case like this where the sprite emitted is very small (almost a
+				  particle - Now that's a thought! I wonder I could have done this with
+				  particles! Well, an experiment for another time). Also, the plane that the
+				  sprites are emitted on (the plane of the path) stays self-consistent from
+				  different camera angles. Basically, it seems to work. Here are a couple shots
+				  from the same time and two cameras to demonstrate what I mean.</P><IMG
+				SRC="Images/TwoCameraShots.jpg" BORDER="0" WIDTH="640" HEIGHT="240">
+				<H2>Conclusions</H2> 
+				<P>So that's basically it except for the looking at the results and
+				  picking apart the project. You'll find links to both below. Please enjoy and as
+				  always, feedback good and bad is appreciated, especially as we explore these
+				  new features. Thanks, Darrin Mossor</P> 
+				<H2>Downloads</H2> 
+				<TABLE BORDER="1"> 
+				  <TR> 
+					 <TH>Files</TH> 
+					 <TH>Description</TH> 
+				  </TR> 
+				  <TR>
+					 <TD><A HREF="Downloads/WritiingSprites.mov">Final
+						Animation</A></TD>
+					 <TD>QT (On2 codec) - 500k, 10s</TD>
+				  </TR>
+				  <TR> 
+					 <TD><A
+						HREF="Downloads/WritingSprites.zip">WritingSprites.proj</A></TD> 
+					 <TD>Project file (76<BR>k)</TD> 
+				  </TR> 
+				</TABLE> </TD> 
+		  </TR> 
+		  <TR> 
+			 <TD ALIGN="CENTER"> <HR> 
+				<P> <A HREF="http://www.mossor.org">Mossor.org Home</A> |
+				  <A HREF="../../index.html">Desktop Studios Home</A></P> </TD> 
+		  </TR> 
+		  <TR> 
+			 <TD ALIGN="RIGHT"> 
+				<P><FONT SIZE="-1">This document maintained by
+				  <A HREF="mailto:webmaster@mossor.org">webmaster@mossor.org</A>.<BR>Material
+				  Copyright &copy; 1999-2001 Darrin Mossor</FONT></P></TD> 
+		  </TR> 
+		</TABLE></CENTER> </BODY>
+</HTML>

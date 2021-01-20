@@ -1,0 +1,66 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html> <head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script> 
+  var myData = $('#return-text');
+  getStuff(myData);
+
+  function getStuff(myData) {
+    //var url = "https://www.mossor.org/cgi-bin/getEnv.py";
+    var url = "https://www.mossor.org/cgi-bin/randNum.py";
+    $.get(url, function(data) {
+      //alert("Data: " + data);
+      $("#randNum").html(data);
+    });
+  }
+
+  //document.writeln("<b>Thought of the Day:</b><br>The beginnings...");
+</script>
+
+<title>Test Page</title>
+</head>
+
+<body>
+<h1>Test Page for Python</h1>
+<!-- <script src="https://wordsmith.org/words/quote.js" type="text/javascript"></script> -->
+
+<!-- <script>  -->
+<!--   $(function() { -->
+<!--   var quote = $('#quote-text'); -->
+<!--   getQuote(quote); -->
+
+<!--   $('#getQuote').click(function(event) { -->
+<!--   event.preventDefault(); -->
+<!--   getQuote(quote); -->
+<!--   }) -->
+<!--   }); -->
+
+<!--   function getQuote(quote) { -->
+<!--   var url = "https://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=jsonp&jsonp=?" -->
+
+<!--   $.getJSON(url, function(data) { -->
+<!--   quote.html(data.quoteText); -->
+<!--   }); -->
+<!--   } -->
+<!-- </script> -->
+
+<!-- <div class="jumbotron text-center"> -->
+<!--   <p id="quote-text"></p> -->
+<!--   <button id="getQuote" class="btn">Get Quote</button> -->
+<!-- </div> -->
+
+<p>[Before a Random Number]</p>
+<!-- Will be replaced entirely with output from script above -->
+<div id="randNum">
+  Number: 
+</div>
+<p>[After a Random Number]</p>
+
+<address><a href="mailto:darrin@mossor.org">Darrin Mossor</a></address>
+</body> </html>

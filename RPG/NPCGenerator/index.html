@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>RPG: NPC Generator</title>
+    <link rel="icon" type="image/png" href="Images/d20-favicon.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jockey+One&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <style type='text/css'>
+        body {
+          background-image: url("Images/parchment_paper_wallpaper_texture_seamless.jpg");
+          background-color: #cccccc;
+        }
+        p {
+          font-family: 'Roboto', sans-serif;
+          font-weight: 300;
+        }
+        h1 {
+          text-align: center;
+          font-family: 'Jockey One', sans-serif;
+          color: white;
+          background-color: black;
+        }
+        h5 {
+          background-color: black;
+          color: white;
+        }
+        form {
+            margin:0px 0px 10px;
+            padding: 0 5px;
+        }
+        #charOutput {
+          border: 2px solid black;
+        }
+        #charOutput::before {
+          background-color : black;
+          content: "";
+          position: absolute;
+          top: 0px;
+          right: 0px;
+          bottom: 0px;
+          left: 0px;
+          opacity : 0.20;
+        }
+
+        .dlm-dropdown {
+          float: right;
+          width: 50%;
+        }
+        .card {
+          background-color: white;
+          border: 2px solid black;
+          margin-top: 20px;
+        }
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            padding: 10px 20px;
+            width: 100%;
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<div class="container" max-width:720px>
+  <div class="row" max-width:720px>
+      <div class="col">
+        <h1>RPG: NPC Generator</h2>
+      </div>
+  </div>
+  <div class="row" max-width:720px>
+    <div class="col">
+      <form action = "/cgi-bin/charbuild.py" method = "post" target = "outputiFrame" bottommargin="50" style="height:200px;">
+
+        <div class="form-group">
+          <label>Name: </label>
+          <select name="dropdownName" class="dlm-dropdown">
+            <option value = "Random" selected>Random</option>
+            <option value = "Fantasy">Fantasy</option>
+            <option value = "Modern-US">Modern-US</option>
+            <option value = "None">None</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Gender: </label>
+          <select name="dropdownGender" class="dlm-dropdown">
+            <option value = "Random" selected>Random</option>
+            <option value = "Female">Female</option>
+            <option value = "Male">Male</option>
+            <option value = "Non-Binary">Non-Binary</option>
+          </select>
+        </div>
+        <button type="submit" name="submitButton" class="btn btn-primary btn-block">Create!</button>
+      </form>
+    </div>
+
+    <div class="col">
+
+    </div>
+    <div class="col">
+      <img src="Images/RPG-NPC-Creator-Logo-v5.png" class="img-fluid" alt="Responsive image" style="height:200px;">
+    </div>
+  </div>
+
+  <div class="row" max-width:720px>
+    <div class="col" id="charOutput">
+      <div class="embed-responsive embed-responsive-21by9">
+        <iframe name="outputiFrame" src="/cgi-bin/charbuild.py"></iframe>
+      </div>
+    </div>
+  </div>
+  <div class="row" max-width:720px>
+    <div class="col">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Notes</h5>
+          <p class="card-text">The idea for this NPC Generator is based on a personality test called the Big 5 or The Five Factor Model (FFM) which measures personality on five spectrums: Openness, Conscientiousness, Extraversion, Ageeableness and Neuroticism.  What is unique about this is that it flips the idea around and rolls some dice to create a character based on randomized values for those characteristics.</p>
+          <p class="card-text">You can read more about the FFM at one of the links below:</p>
+          <ul>
+            <li><a href="https://en.wikipedia.org/wiki/Big_Five_personality_traits">Big Five personality traits (Wikipedia)</a></li>
+            <li><a href="https://www.psychologistworld.com/personality/five-factor-model-big-five-personality">Five-Factor Model of Personality (Psychologist World Online)</a></li>
+          </ul>
+          <p class="card-text">You can take an online version of the FFM personality tests here, if you are curious:</p>
+          <p class="card-text"><a href="https://openpsychometrics.org/tests/IPIP-BFFM/">Big Five Personality Test</a></p>
+          <p class="card-text">If you have ideas for enhancements or see issues, please drop us an <a href = "mailto:big5@mossor.org?subject=RPG%20:%20NPC%20Generator%20-%20Problems/Suggestions" target="_blank">email</a>.</p>
+Send Feedback
+</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <p>Big 5 Character Generator &copy; 2019-2020 Laurel Mossor & Darrin Mossor</p>
+  </div>
+</div>
+
+<!-- Bootstrap core JavaScript -->
+<script src="../../vendor/jquery/jquery.min.js"></script>
+<script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="../../vendor/jquery-easing/jquery.easing.min.js"></script>
+<script src="../../vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+</body>
+</html>

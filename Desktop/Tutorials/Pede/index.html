@@ -1,0 +1,129 @@
+<!DOCTYPE HTML PUBLIC "-//SoftQuad Software//DTD HoTMetaL PRO 6.0::19990601::extensions to HTML 4.0//EN" "hmpro6.dtd">
+<HTML> 
+  <HEAD> 
+	 <TITLE>Desktop Studios</TITLE> 
+  </HEAD> 
+  <BODY BACKGROUND="../../../Images/bg_1.jpg" TEXT="E5CB94" LINK="#33ff66"
+	ALINK="#FF0000" VLINK="#6699FF"> 
+	 <CENTER> 
+		<TABLE> 
+		  <TR> 
+			 <TD ALIGN="CENTER"><IMG SRC="Images/TitlePic.jpg" BORDER="0"
+				WIDTH="400" HEIGHT="253"></TD> 
+		  </TR> 
+		  <TR> 
+			 <TD ALIGN="CENTER"> 
+				<H1>Tutorial: Walking a Centipede Along a Path -or- Building
+				  Complex Animations from Simple Pieces</H1> <HR></TD> 
+		  </TR> 
+		  <TR> 
+			 <TD ALIGN="CENTER" WIDTH="100%"> 
+				<TABLE BORDER="1"> 
+				  <TR> 
+					 <TD BGCOLOR="#000000">Tutorial</TD> 
+					 <TD>Walking a Centipede</TD> 
+				  </TR> 
+				  <TR> 
+					 <TD BGCOLOR="#000000">Version</TD> 
+					 <TD>1.0</TD> 
+				  </TR> 
+				  <TR> 
+					 <TD BGCOLOR="#000000">Last Updated</TD> 
+					 <TD>October, 10, 2001</TD> 
+				  </TR> 
+				  <TR> 
+					 <TD BGCOLOR="#000000">Animation Master Version </TD> 
+					 <TD>v8.5p</TD> 
+				  </TR> 
+				  <TR> 
+					 <TD BGCOLOR="#000000">Tutorial Level</TD> 
+					 <TD>Beginner</TD> 
+				  </TR> 
+				</TABLE></TD> 
+		  </TR> 
+		  <TR> 
+			 <TD ALIGN="LEFT" WIDTH="100%"> 
+				<P>In this tutorial, I'm going to cover a whole slew of things.
+				  I'll detail them below, but the basic gist is that I'm going to show how from
+				  simple building blocks in Modeling, Actions, Materials and Choreography, we can
+				  start with a very simple set of things and build towards a fairly complex
+				  animation. The entire Project is only 200k, the final animation about 1.06Mb.
+				  From that, we'll generate 10 seconds of animation that will consist of our
+				  centipede (pictured above) walking across the screen, legs in a nice sequence,
+				  blinking, eyes going from fixed in front to looking at the camera, mouth
+				  waggling, and even a nice wave before exiting. Not bad!</P> 
+				<P>From an organizational perspective, I'm going to break this in
+				  to several pages and sections. You'll find the contents with a simple
+				  description below. You can go through a page at a time or just go directly to
+				  the section you're interested in. I'm going to assume the audience has a basic
+				  familiarity with <A HREF="http://www.hash.com">A:M</A> (I'm running version
+				  8.5p+ for this tutorial) but I am going to go in to a fair amount of detail,
+				  hopefully enough to allow you to either just follow along or to create it from
+				  scratch.</P> 
+				<P>Note: Probably the best way to do this is to download the
+				  Project file here and load that up in A:M and we'll go through how to go from
+				  zero to the result. Alternatively, you can get a copy of the final animation
+				  <A HREF="Animations/Walking_Final.mov">here</A> (1.06M Quicktime - Sorenson
+				  compression), and if you see something you'd like to know how to do and if so,
+				  follow along!</P> 
+				<TABLE BORDER="1" CELLPADDING="0" CELLSPACING="0" WIDTH="100%"
+				BORDERCOLOR="#006060"> 
+				  <TR> 
+					 <TH VALIGN="top" COLSPAN="3" WIDTH="100%" BGCOLOR="#0066bb"
+					 ALIGN="LEFT">Contents</TH> 
+				  </TR> 
+				</TABLE> 
+				<OL> 
+				  <LI>Introduction</LI> 
+				  <LI><A HREF="HTML/shortcuts.htm">Keyboard Shortcuts and
+					 Recommended Tutorials</A></LI> 
+				  <LI><A HREF="HTML/modeling.html">Modeling</A> - Modeling the
+					 pieces for our centipede</LI> 
+				  <LI><A HREF="HTML/rigging.htm">Rigging</A> - A *very* basic
+					 rigging to accomplish what we need and no more</LI> 
+				  <LI><A HREF="HTML/walkaction.htm">Basic Walk Action</A> - 30
+					 frames of strolling</LI> 
+				  <LI><A HREF="HTML/choreography.htm">Choreography</A> - Creating a
+					 place to perform</LI> 
+				  <LI><A HREF="HTML/paths.htm">Paths</A> - Our actor needs to know
+					 where to go</LI> 
+				  <LI><A HREF="HTML/modelreuse.htm">Model Reuse</A> - Can't just
+					 have a head walking along</LI> 
+				  <LI><A HREF="HTML/ease.htm">Ease</A> - Just easing down that
+					 path!</LI> 
+				  <LI><A HREF="HTML/moreactions.htm">More Actions for fun and
+					 flavor</A> - Now let's give our actor some character</LI> 
+				  <LI><A HREF="HTML/summary.htm">Summary</A> - Rendering,
+					 animations, final words.</LI> 
+				</OL> 
+				<P>Okay, well, that's quite a list for just a 200k Project file, so
+				  let's get started!</P></TD> 
+		  </TR> 
+		  <TR> 
+			 <TD ALIGN="CENTER" WIDTH="100%"> 
+				<TABLE BORDER="1" CELLPADDING="0" CELLSPACING="0" WIDTH="100%"
+				BORDERCOLOR="#006060"> 
+				  <TR> 
+					 <TD VALIGN="top" COLSPAN="3" WIDTH="33%" BGCOLOR="#000000"
+					 ALIGN="CENTER"><A HREF="index.html">Previous</A></TD> 
+					 <TD VALIGN="top" WIDTH="34%" BGCOLOR="#000000"
+					 ALIGN="CENTER"><A HREF="../../index.html">Home</A></TD> 
+					 <TD VALIGN="top" WIDTH="33%" BGCOLOR="#000000"
+					 ALIGN="CENTER"><A HREF="HTML/shortcuts.htm">Next</A></TD> 
+				  </TR> 
+				</TABLE></TD> 
+		  </TR> 
+		  <TR> 
+			 <TD ALIGN="CENTER"> 
+				<P></P><HR> 
+				<P> <A HREF="http://www.mossor.org">Mossor.org Home</A> |
+				  <A HREF="../../index.html">Desktop Studios Home</A></P> </TD> 
+		  </TR> 
+		  <TR> 
+			 <TD ALIGN="RIGHT"> 
+				<P><FONT SIZE="-1">This document maintained by
+				  <A HREF="mailto:webmaster@mossor.org">webmaster@mossor.org</A>.<BR>Material
+				  Copyright &copy; 1999-2001 Darrin Mossor</FONT></P></TD> 
+		  </TR> 
+		</TABLE></CENTER> </BODY>
+</HTML>
