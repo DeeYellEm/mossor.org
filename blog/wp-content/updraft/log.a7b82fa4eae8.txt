@@ -1,4 +1,0 @@
-0000.000 (1) Opened log file at time: Tue, 20 Oct 2020 18:30:27 +0000 on https://www.mossor.org/blog
-0000.009 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.31 WP: 5.5.1 PHP: 7.2.33 (litespeed, Linux us-imm-web398.main-hosting.eu 3.10.0-962.3.2.lve1.5.33.el7.x86_64 #1 SMP Fri Mar 13 09:20:40 EDT 2020 x86_64) MySQL: 10.4.14-MariaDB WPLANG: en_US Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 3.8M | 6M) multisite: N openssl: OpenSSL 1.0.2k  26 Jan 2017 mcrypt: N LANG:  ZipArchive::addFile: Y
-0000.024 (1) Free space on disk containing Updraft's temporary directory: 5244498.3 MB
-0000.032 (1) This backup task (a7b82fa4eae8) is either complete or began over 2 days ago: ending (1603218627.7383, ) (existing jobdata keys: )
