@@ -2,8 +2,19 @@
 
 #echo "<p>PHP last3posts: Hello</p>";
 # Step 1 : Open the file to be written to
-$filename = "generated-last3PostsBlock.php";
+$user = get_current_user();
+if ($user == "darrinmossor")
+{
+  $filename = "/Users/darrinmossor/Sites/mossor.org/php/generated-last3PostsBlock.php";
+} else {
+  $filename = "/home/u202802032/domains/mossor.org/public_html/php/generated-last3PostsBlock.php";
+}
 $file = fopen( $filename, "w+" );
+
+if( $file == false ) {
+  echo ( "Error in opening new file: $filename" );
+  exit();
+}
 
 # Step 2: This will use the Wordpress REST API to get information from the blog
 # Note: The per_page=3 will just get us the last three, which is fine

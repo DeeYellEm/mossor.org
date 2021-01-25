@@ -1,0 +1,4 @@
+<?php
+echo gethostname()."\n"; 
+echo 'Current script owner: ' . get_current_user(). "\n";
+?>

@@ -94,7 +94,7 @@ Modified by darrinmossor@mossor.org
     <div class="section section-gray" id="blogPosts">
       <div class="container tim-container">
 
-        <?php include 'php/last3posts.php'; ?>
+        <?php $block = file_get_contents("php/generated-last3PostsBlock.php"); echo $block; ?>
 
       </div>
     </div>
