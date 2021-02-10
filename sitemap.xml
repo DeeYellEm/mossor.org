@@ -1,1357 +1,789 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
+		<!--	created with www.mysitemapgenerator.com	-->
+		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-  <loc>https://www.mossor.org/</loc>
-  <lastmod>2019-04-10T02:02:39+00:00</lastmod>
-  <priority>1.00</priority>
+	<loc>https://www.mossor.org/</loc>
+	<lastmod>2021-02-10T20:29:33+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://www.mossor.org/index.html</loc>
+	<lastmod>2021-02-10T20:29:35+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/HTML/Older.html</loc>
-  <lastmod>2018-02-28T04:11:43+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://www.mossor.org/RPG/NPCGenerator/index.html</loc>
+	<lastmod>2021-02-10T20:29:37+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?p=1325</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/Desktop/index.html</loc>
+	<lastmod>2021-02-10T20:29:38+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?cat=5</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/index.html</loc>
+	<lastmod>2021-02-10T20:29:38+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?p=1302</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EagleTale/index.html</loc>
+	<lastmod>2021-02-10T20:29:38+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?attachment_id=1297</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/JakesChair/index.html</loc>
+	<lastmod>2021-02-10T20:29:38+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?attachment_id=1298</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/Desktop/Stills/cg_gallery_19.htm</loc>
+	<lastmod>2021-02-10T20:29:38+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?attachment_id=1305</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/Desktop/Stills/cg_gallery_18.htm</loc>
+	<lastmod>2021-02-10T20:29:39+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?attachment_id=1284</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/Desktop/Stills/cg_gallery_17.htm</loc>
+	<lastmod>2021-02-10T20:30:12+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?attachment_id=1285</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/Desktop/Stills/cg_gallery_14.htm</loc>
+	<lastmod>2021-02-10T20:29:39+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?attachment_id=1286</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/Desktop/Stills/cg_gallery_13.htm</loc>
+	<lastmod>2021-02-10T20:29:39+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?attachment_id=1287</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/Desktop/Stills/cg_gallery_12.htm</loc>
+	<lastmod>2021-02-10T20:29:39+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?attachment_id=1288</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/Desktop/Stills/cg_gallery_11.htm</loc>
+	<lastmod>2021-02-10T20:29:39+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?attachment_id=1292</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/Desktop/Stills/cg_gallery_8.html</loc>
+	<lastmod>2021-02-10T20:29:40+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?attachment_id=1291</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/Desktop/Stills/cg_gallery_10.htm</loc>
+	<lastmod>2021-02-10T20:29:40+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?attachment_id=1290</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/Desktop/Stills/cg_gallery_9.htm</loc>
+	<lastmod>2021-02-10T20:29:40+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?attachment_id=1289</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/Desktop/Stills/cg_gallery_7.html</loc>
+	<lastmod>2021-02-10T20:29:40+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?attachment_id=1293</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/Desktop/Stills/cg_gallery_5.html</loc>
+	<lastmod>2021-02-10T20:29:40+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?attachment_id=1296</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/Desktop/Stills/cg_gallery_6.html</loc>
+	<lastmod>2021-02-10T20:29:41+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?attachment_id=1295</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/Desktop/Stills/cg_gallery_4.html</loc>
+	<lastmod>2021-02-10T20:29:41+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?attachment_id=1294</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/Desktop/Stills/cg_gallery_3.html</loc>
+	<lastmod>2021-02-10T20:29:41+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?cat=4</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/Desktop/Stills/cg_gallery_2.html</loc>
+	<lastmod>2021-02-10T20:29:41+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?p=1263</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/Desktop/Stills/cg_gallery_1.html</loc>
+	<lastmod>2021-02-10T20:29:42+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?p=1228</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/Desktop/Tutorials/Footsteps/index.html</loc>
+	<lastmod>2021-02-10T20:29:42+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?attachment_id=1243</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/Desktop/Tutorials/SpriteWrite/index.html</loc>
+	<lastmod>2021-02-10T20:29:42+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?attachment_id=1242</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/Desktop/Tutorials/Layers/layers.html</loc>
+	<lastmod>2021-02-10T20:29:45+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?attachment_id=1241</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/Desktop/Tutorials/Duplicator/duplicator.html</loc>
+	<lastmod>2021-02-10T20:29:42+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?attachment_id=1240</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/Desktop/Tutorials/Pede/index.html</loc>
+	<lastmod>2021-02-10T20:29:42+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?p=1253</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/Desktop/Tutorials/garbagecan.htm</loc>
+	<lastmod>2021-02-10T20:29:42+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?attachment_id=1252</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/Desktop/Stills/cg_gallery_15.htm</loc>
+	<lastmod>2021-02-10T20:29:43+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?attachment_id=1250</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/Desktop/Models/cg_model_1.htm</loc>
+	<lastmod>2021-02-10T20:29:43+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?attachment_id=1251</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/Desktop/Models/cg_model_2.htm</loc>
+	<lastmod>2021-02-10T20:29:43+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?attachment_id=1248</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/Desktop/Models/cg_model_3.htm</loc>
+	<lastmod>2021-02-10T20:29:43+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?attachment_id=1247</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/Desktop/Pull/index.html</loc>
+	<lastmod>2021-02-10T20:29:44+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?attachment_id=1249</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/Desktop/Stills/cg_gallery_16.htm</loc>
+	<lastmod>2021-02-10T20:29:44+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?p=1218</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/Desktop/Danse/index.html</loc>
+	<lastmod>2021-02-10T20:29:44+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?attachment_id=1226</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/backagain.html</loc>
+	<lastmod>2021-02-10T20:29:44+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?attachment_id=1221</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/RainerTrip/index.html</loc>
+	<lastmod>2021-02-10T20:29:44+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?attachment_id=1220</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/paperdoll.html</loc>
+	<lastmod>2021-02-10T20:29:45+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?attachment_id=1219</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/SandCity/index.html</loc>
+	<lastmod>2021-02-10T20:29:45+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?p=1202</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/DAC98/entry1.html</loc>
+	<lastmod>2021-02-10T20:29:45+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?p=1070</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/55Words/index.html</loc>
+	<lastmod>2021-02-10T20:29:45+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?attachment_id=1064</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/art.html</loc>
+	<lastmod>2021-02-10T20:29:45+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?attachment_id=1065</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/revisionist.html</loc>
+	<lastmod>2021-02-10T20:29:45+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?attachment_id=1066</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/dacscandal.html</loc>
+	<lastmod>2021-02-10T20:29:45+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?attachment_id=1067</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EagleTale/HTML/06160008.html</loc>
+	<lastmod>2021-02-10T20:29:46+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?attachment_id=1068</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EagleTale/HTML/06160009.html</loc>
+	<lastmod>2021-02-10T20:29:46+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?attachment_id=1069</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EagleTale/HTML/06160011.html</loc>
+	<lastmod>2021-02-10T20:29:46+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?p=1051</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EagleTale/HTML/06160010.html</loc>
+	<lastmod>2021-02-10T20:29:46+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?cat=6</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EagleTale/HTML/06160012.html</loc>
+	<lastmod>2021-02-10T20:29:46+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?p=1020</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EagleTale/HTML/06160013.html</loc>
+	<lastmod>2021-02-10T20:29:46+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?paged=2</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EagleTale/HTML/06160014.html</loc>
+	<lastmod>2021-02-10T20:29:46+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?paged=14</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EagleTale/HTML/06160015.html</loc>
+	<lastmod>2021-02-10T20:29:46+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?m=202007</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EagleTale/HTML/06160016.html</loc>
+	<lastmod>2021-02-10T20:29:47+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?m=201810</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EagleTale/HTML/06160017.html</loc>
+	<lastmod>2021-02-10T20:29:47+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?m=201808</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EagleTale/HTML/06160018.html</loc>
+	<lastmod>2021-02-10T20:29:47+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?m=201807</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EagleTale/HTML/06160019.html</loc>
+	<lastmod>2021-02-10T20:29:47+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?m=201803</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EagleTale/HTML/06160020.html</loc>
+	<lastmod>2021-02-10T20:29:47+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?m=201802</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EagleTale/HTML/06160022.html</loc>
+	<lastmod>2021-02-10T20:29:47+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?m=201704</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EagleTale/HTML/06160025.html</loc>
+	<lastmod>2021-02-10T20:29:47+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?m=201703</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EagleTale/HTML/06160026.html</loc>
+	<lastmod>2021-02-10T20:29:47+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?m=201702</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EagleTale/HTML/06160028.html</loc>
+	<lastmod>2021-02-10T20:29:48+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?m=201701</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EagleTale/HTML/06160027.html</loc>
+	<lastmod>2021-02-10T20:29:48+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?m=201507</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EagleTale/HTML/06160023.html</loc>
+	<lastmod>2021-02-10T20:29:48+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?m=201504</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EagleTale/HTML/06160024.html</loc>
+	<lastmod>2021-02-10T20:29:48+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?m=201503</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/Desktop/Tutorials/Pede/HTML/shortcuts.htm</loc>
+	<lastmod>2021-02-10T20:29:51+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?m=201502</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/Desktop/Tutorials/Pede/HTML/modeling.html</loc>
+	<lastmod>2021-02-10T20:29:53+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?m=201501</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/Desktop/Tutorials/Pede/HTML/rigging.htm</loc>
+	<lastmod>2021-02-10T20:29:51+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?m=201412</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/Desktop/Tutorials/Pede/HTML/walkaction.htm</loc>
+	<lastmod>2021-02-10T20:29:51+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?m=201411</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/Desktop/Tutorials/Pede/HTML/choreography.htm</loc>
+	<lastmod>2021-02-10T20:29:52+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?m=201409</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/Desktop/Tutorials/Pede/HTML/paths.htm</loc>
+	<lastmod>2021-02-10T20:29:52+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?m=201408</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/Desktop/Tutorials/Pede/HTML/modelreuse.htm</loc>
+	<lastmod>2021-02-10T20:29:52+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?m=201407</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/Desktop/Tutorials/Pede/HTML/ease.htm</loc>
+	<lastmod>2021-02-10T20:29:53+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?m=201405</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/Desktop/Tutorials/Pede/HTML/moreactions.htm</loc>
+	<lastmod>2021-02-10T20:29:53+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?m=201404</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/Desktop/Tutorials/Pede/HTML/summary.htm</loc>
+	<lastmod>2021-02-10T20:29:53+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?m=201401</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/RainerTrip/trip_0.txt</loc>
+	<lastmod>2021-02-10T20:29:59+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?m=201312</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/RainerTrip/trip_1.txt</loc>
+	<lastmod>2021-02-10T20:30:00+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?m=201311</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/RainerTrip/trip_2.txt</loc>
+	<lastmod>2021-02-10T20:29:59+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?m=201310</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/RainerTrip/trip_3.txt</loc>
+	<lastmod>2021-02-10T20:30:02+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?m=201309</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/RainerTrip/trip_4.txt</loc>
+	<lastmod>2021-02-10T20:30:03+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?m=201308</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/RainerTrip/trip_5.txt</loc>
+	<lastmod>2021-02-10T20:30:05+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?m=201307</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/RainerTrip/trip_6.txt</loc>
+	<lastmod>2021-02-10T20:30:06+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?m=201306</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/RainerTrip/trip_7.txt</loc>
+	<lastmod>2021-02-10T20:30:08+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?m=201305</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/RainerTrip/trip_8.txt</loc>
+	<lastmod>2021-02-10T20:30:08+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?m=201304</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/RainerTrip/trip_9.txt</loc>
+	<lastmod>2021-02-10T20:30:11+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?m=201303</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/RainerTrip/trip_10.txt</loc>
+	<lastmod>2021-02-10T20:30:11+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?m=201302</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/RainerTrip/trip_11.txt</loc>
+	<lastmod>2021-02-10T20:30:13+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?m=201301</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/RainerTrip/trip_12.txt</loc>
+	<lastmod>2021-02-10T20:30:13+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?m=201108</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/RainerTrip/trip_13.txt</loc>
+	<lastmod>2021-02-10T20:30:13+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?m=201102</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/RainerTrip/trip_14.txt</loc>
+	<lastmod>2021-02-10T20:30:15+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?m=201008</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/RainerTrip/trip_15.txt</loc>
+	<lastmod>2021-02-10T20:30:16+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?m=200912</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/RainerTrip/trip_16.txt</loc>
+	<lastmod>2021-02-10T20:30:16+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?m=200911</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/RainerTrip/trip_17.txt</loc>
+	<lastmod>2021-02-10T20:30:17+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?m=200910</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/RainerTrip/trip_18.txt</loc>
+	<lastmod>2021-02-10T20:30:18+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?m=200909</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/RainerTrip/trip_19.txt</loc>
+	<lastmod>2021-02-10T20:30:19+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?m=200907</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/RainerTrip/trip_20.txt</loc>
+	<lastmod>2021-02-10T20:30:20+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?m=200906</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/RainerTrip/trip_21.txt</loc>
+	<lastmod>2021-02-10T20:30:20+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?m=200903</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/RainerTrip/trip_22.txt</loc>
+	<lastmod>2021-02-10T20:30:22+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?m=200901</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/RainerTrip/trip_23.txt</loc>
+	<lastmod>2021-02-10T20:30:22+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?m=200812</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/RainerTrip/trip_24.txt</loc>
+	<lastmod>2021-02-10T20:30:23+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?m=200811</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/RainerTrip/trip_25.txt</loc>
+	<lastmod>2021-02-10T20:30:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?m=200810</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/RainerTrip/trip_26.txt</loc>
+	<lastmod>2021-02-10T20:30:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?m=200807</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/RainerTrip/trip_27.txt</loc>
+	<lastmod>2021-02-10T20:30:25+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?m=200803</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/RainerTrip/trip_28.txt</loc>
+	<lastmod>2021-02-10T20:30:27+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?m=200802</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/RainerTrip/trip_29.txt</loc>
+	<lastmod>2021-02-10T20:30:27+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?m=200801</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/RainerTrip/trip_30.txt</loc>
+	<lastmod>2021-02-10T20:30:27+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/index.html</loc>
-  <lastmod>2019-04-10T02:02:39+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/RainerTrip/trip_31.txt</loc>
+	<lastmod>2021-02-10T20:30:29+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?p=993</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/RainerTrip/trip_32.txt</loc>
+	<lastmod>2021-02-10T20:30:30+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?p=990</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/RainerTrip/trip_33.txt</loc>
+	<lastmod>2021-02-10T20:30:30+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?p=944</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/SandCity/HTML/sand1.html</loc>
+	<lastmod>2021-02-10T20:30:32+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?p=964</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/55Words/story1.html</loc>
+	<lastmod>2021-02-10T20:30:33+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?p=983</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/55Words/story2.html</loc>
+	<lastmod>2021-02-10T20:30:34+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?p=933</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/55Words/story3.html</loc>
+	<lastmod>2021-02-10T20:30:32+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?cat=5&amp;paged=2</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/55Words/story4.html</loc>
+	<lastmod>2021-02-10T20:30:33+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?paged=2&amp;cat=5</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/55Words/story5.html</loc>
+	<lastmod>2021-02-10T20:30:33+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?paged=5&amp;cat=5</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/55Words/story6.html</loc>
+	<lastmod>2021-02-10T20:30:33+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?p=999</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/55Words/story7.html</loc>
+	<lastmod>2021-02-10T20:30:33+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?cat=4&amp;paged=2</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/55Words/story8.html</loc>
+	<lastmod>2021-02-10T20:30:34+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?paged=2&amp;cat=4</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/55Words/story9.html</loc>
+	<lastmod>2021-02-10T20:30:33+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?paged=3&amp;cat=4</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/55Words/story10.html</loc>
+	<lastmod>2021-02-10T20:30:34+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?p=741</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/55Words/story11.html</loc>
+	<lastmod>2021-02-10T20:30:34+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?p=136</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/55Words/story12.html</loc>
+	<lastmod>2021-02-10T20:30:34+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?p=68</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/55Words/story13.html</loc>
+	<lastmod>2021-02-10T20:30:34+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?p=21</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/55Words/story14.html</loc>
+	<lastmod>2021-02-10T20:30:34+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?p=6</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/55Words/story15.html</loc>
+	<lastmod>2021-02-10T20:30:34+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?p=873</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/55Words/story16.html</loc>
+	<lastmod>2021-02-10T20:30:34+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?p=860</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/55Words/story17.html</loc>
+	<lastmod>2021-02-10T20:30:34+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?cat=7</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/55Words/story18.html</loc>
+	<lastmod>2021-02-10T20:30:34+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?p=839</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/55Words/story19.html</loc>
+	<lastmod>2021-02-10T20:30:35+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?paged=3</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/55Words/story20.html</loc>
+	<lastmod>2021-02-10T20:30:35+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?p=5</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/55Words/story21.html</loc>
+	<lastmod>2021-02-10T20:30:35+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?paged=13</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/55Words/story22.html</loc>
+	<lastmod>2021-02-10T20:30:35+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?p=834</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/55Words/story23.html</loc>
+	<lastmod>2021-02-10T20:30:35+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?p=820</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/55Words/story24.html</loc>
+	<lastmod>2021-02-10T20:30:35+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?cat=2</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/55Words/story25.html</loc>
+	<lastmod>2021-02-10T20:30:35+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?p=796</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/55Words/story26.html</loc>
+	<lastmod>2021-02-10T20:30:35+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?p=719</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/55Words/story27.html</loc>
+	<lastmod>2021-02-10T20:30:35+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?p=756</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/55Words/story28.html</loc>
+	<lastmod>2021-02-10T20:30:35+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?p=705</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/55Words/story29.html</loc>
+	<lastmod>2021-02-10T20:30:35+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?p=702</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/55Words/story30.html</loc>
+	<lastmod>2021-02-10T20:30:36+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?p=692</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/55Words/story31.html</loc>
+	<lastmod>2021-02-10T20:30:35+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?p=689</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/55Words/story32.html</loc>
+	<lastmod>2021-02-10T20:30:36+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?p=681</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/55Words/story33.html</loc>
+	<lastmod>2021-02-10T20:30:36+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?p=676</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/55Words/story34.html</loc>
+	<lastmod>2021-02-10T20:30:36+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?p=669</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/55Words/story35.html</loc>
+	<lastmod>2021-02-10T20:30:36+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?p=665</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/55Words/story36.html</loc>
+	<lastmod>2021-02-10T20:30:36+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?p=652</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/55Words/story37.html</loc>
+	<lastmod>2021-02-10T20:30:36+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?p=641</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/55Words/story38.html</loc>
+	<lastmod>2021-02-10T20:30:36+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?p=658</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/55Words/story39.html</loc>
+	<lastmod>2021-02-10T20:30:36+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?p=647</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/55Words/story40.html</loc>
+	<lastmod>2021-02-10T20:30:36+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?p=637</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/55Words/story41.html</loc>
+	<lastmod>2021-02-10T20:30:37+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?p=631</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/55Words/story42.html</loc>
+	<lastmod>2021-02-10T20:30:37+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?p=627</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/HTML/DAC98/entry2.html</loc>
+	<lastmod>2021-02-10T20:30:37+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?p=621</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/SandCity/HTML/sand2.html</loc>
+	<lastmod>2021-02-10T20:30:37+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?p=612</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/SandCity/HTML/sand3.html</loc>
+	<lastmod>2021-02-10T20:30:37+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
-  <loc>https://www.mossor.org/blog/?p=606</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://www.mossor.org/HTML/EaglePages/SandCity/HTML/sand4.html</loc>
+	<lastmod>2021-02-10T20:30:37+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=600</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=594</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=592</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=585</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=580</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=572</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=567</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=561</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?cat=8</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=553</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=547</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=541</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=535</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=530</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=525</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=515</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=508</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=501</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=494</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=488</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=484</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=477</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=466</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=458</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=453</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=445</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=441</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=436</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=423</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=410</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=400</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=392</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=371</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=365</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=357</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=348</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=333</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=316</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=310</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=299</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=291</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=278</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?tag=writing</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=266</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?tag=short-story</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=256</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=202</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=201</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=179</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=172</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=163</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=160</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=155</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=150</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=145</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=142</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=140</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=130</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=124</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=122</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=119</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=117</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=115</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=108</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=106</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=103</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=96</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=93</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=88</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=86</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=79</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=70</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=64</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=54</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=31</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=25</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=20</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=18</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=17</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=16</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=15</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=14</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=13</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=11</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?p=7</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?cat=5&amp;paged=3</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?paged=3&amp;cat=5</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?cat=5&amp;paged=4</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?paged=4&amp;cat=5</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?cat=4&amp;paged=3</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?cat=7&amp;paged=2</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?paged=2&amp;cat=7</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?paged=6&amp;cat=7</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?paged=4</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?paged=12</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?cat=2&amp;paged=2</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?paged=2&amp;cat=2</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?cat=5&amp;paged=5</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?cat=7&amp;paged=3</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?paged=3&amp;cat=7</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?cat=7&amp;paged=5</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?paged=5&amp;cat=7</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?paged=5</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?paged=11</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?cat=7&amp;paged=4</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.26</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?paged=4&amp;cat=7</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.26</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?cat=7&amp;paged=6</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.26</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?paged=6</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.26</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?paged=10</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.26</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?paged=7</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.21</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?paged=9</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.21</priority>
-</url>
-<url>
-  <loc>https://www.mossor.org/blog/?paged=8</loc>
-  <lastmod>2020-07-16T21:44:23+00:00</lastmod>
-  <priority>0.17</priority>
-</url>
-
-
 </urlset>
