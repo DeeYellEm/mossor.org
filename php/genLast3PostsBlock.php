@@ -76,7 +76,7 @@ foreach ($obj as $item) {
   // Column Code
   fwrite($file, "          <div class=\"card-image\" >\n");
   fwrite($file, "            <a href=\"javascript:;\">\n");
-  fwrite($file, "              <img class=\"img\" src=\"" .$mediaURL. "\">\n");
+  fwrite($file, "              <img class=\"img\" src=\"" .$mediaURL. "\" alt=\"Blog Image\">\n");
   fwrite($file, "            </a>\n");
   fwrite($file, "          </div>\n");
   fwrite($file, "          <div class=\"card-body text-center\">\n");
