@@ -105,7 +105,7 @@ echo "    <div class=\"card-cover\" style=\"background-color: " . $reseneColorHe
 echo "      <div class=\"card-body\">\n";
 echo "        <h4 class=\"card-title\">" . $reseneColorName . "</h4>\n";
 echo "        <h6 class=\"card-category\">" . $reseneColorHexValue . "</h6>\n";
-echo "        <p class=\"card-description\">From the classic X11 file rgb.txt </p>\n";
+echo "        <p class=\"card-description\">From the set of Resene colors. </p>\n";
 // Post-col
 echo "     </div>";
 echo "  </div>";
@@ -118,7 +118,7 @@ echo "    <div class=\"card-cover\" style=\"background-color: " . $randColorHexV
 echo "      <div class=\"card-body\">\n";
 echo "        <h4 class=\"card-title\">" . $randColorName . "</h4>\n";
 echo "        <h6 class=\"card-category\">" . $randColorHexValue . "</h6>\n";
-echo "        <p class=\"card-description\">From the classic X11 file rgb.txt </p>\n";
+echo "        <p class=\"card-description\">A unique color and name, created just for you! </p>\n";
 // Post-col
 echo "     </div>";
 echo "  </div>";
