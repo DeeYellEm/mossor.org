@@ -2,3 +2,4 @@
 blog/
 php/generated-last3PostsBlock.php
 .DS_Store
+*~

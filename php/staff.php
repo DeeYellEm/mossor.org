@@ -78,62 +78,24 @@ if ($debug) {echo "Step 2: Backgrounds.\n";};
 
 if ($enable_2) {
 
-  // Generate a random page in the first 10 - Note page=0 is bad.
-  $randomPage = rand(1,10);
-  // Generate a list of random pics - effectively 0-19 randomized
-  // List numbers 1 to 20
-  $picList = range(0,19);
-  // Shuffle numbers
-  shuffle($picList);
-
-  $curl = curl_init();
-  
-  $pixabay_url = "https://pixabay.com/api/?key=18841169-1f29b08e7049dcf74a6b65a71&image_type=\"photo\"&safesearch=\"true\"&orientation=\"landscape\"&category=\"places\"&page=$randomPage";
-  #echo "Pixabay URL: [".$pixabay_url."]\n";
-  curl_setopt_array($curl, [
-    CURLOPT_URL => "$pixabay_url",
-    CURLOPT_RETURNTRANSFER => true,
-    CURLOPT_FOLLOWLOCATION => true,
-    CURLOPT_ENCODING => "",
-    CURLOPT_MAXREDIRS => 10,
-    CURLOPT_TIMEOUT => 30,
-    CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-    CURLOPT_CUSTOMREQUEST => "GET"
-  ]);
-  
-  $response = curl_exec($curl);
-  $err = curl_error($curl);
-  
-  curl_close($curl);
-  
-  if ($err) {
-    echo "cURL Error #:" . $err. ".\n";
-  } else {
-    #echo "Response: " . $response. "<br>";
-    #$type = gettype($response);
-    #echo "Type:". $type . "<br>";
-
-    $obj = json_decode($response, true);
-    if (is_null($obj)) { 
-       echo "ERROR: OBJ is null from pixabay\n";
-       echo "URL: [". $pixabay_url . "]\n";
-       echo "Response: [".$response."]\n";
-    };
-
-    #echo "===\n";
-    #print_r($obj);
-    #echo "===\n";
+    $bgFile = "static/StaffSpotlight/StaffSpotlight-Backgrounds.txt";
     
     $count = 0;
     while ($count < $numCards) {
-        $picNum = $picList[$count];
+      $file = $bgFile;        
+      $picDir = "static/StaffSpotlight/Backgrounds/";
+      if (file_exists($file)) {
+        $f_contents = file($file); 
+        $url = $f_contents[rand(0, count($f_contents) - 1)];
+        $url = rtrim($url, " \n\r\t\v\0");
+        $people[$count]['background'] = $picDir.$url;
+      } else {
+        $cwd = getcwd();
+        echo "ERROR: File not found [" .$cwd.$file."].\n";
+      }
 
-        $people[$count]['background'] = $obj['hits'][$picNum]['webformatURL'];
-        
-        $count++;
+      $count++;
     }
-
-  }
 }
 
 
